@@ -11,6 +11,8 @@ This workshop serves as a stepping stone to a journal of Computational Humanitie
 
 We invite others to join the conversation! 
 
+https://github.com/cohure/website/issues/1#issue-469270736
+
 ### Supporters
 DHLAB - KNAW Humanities Cluster 
 
