@@ -44,7 +44,7 @@ a:visited {
     margin: 0 auto;
     padding: 1em;
     padding-top: 2em;
-    text-align: center;
+    text-align: left;
     border-bottom: 1px solid #eee;
     background: #fff;
     letter-spacing: 0.05em;
@@ -54,6 +54,14 @@ a:visited {
     font-size: 300%;
     font-weight: 100;
     margin: 0;
+}
+
+.logo {
+    font-size: 500%;
+    font-weight: 100;
+    letter-spacing: 0.1em;
+    color: #3498db;
+    text-transform: uppercase;
 }
 
 .content {
