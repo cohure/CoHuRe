@@ -22,7 +22,9 @@ So who's in?
 
 ### Supporters
 - Marieke van Erp - DHLab, KNAW Humanities Cluster
+- Michael Gavin - University of South Carolina
 - Folgert Karsdorp - KNAW Meertens Instituut
+- Oleg Sobchuk -  Max Planck Institute for the Science of Human History
 - Ted Underwood - University of Illinois
 - Melvin Wevers - DHLab, KNAW Humanities Cluster
 - Joris van Zundert - Huygens ING
