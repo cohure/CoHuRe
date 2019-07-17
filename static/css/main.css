@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
 
 html, button, input, select, textarea,
 .pure-g [class *= "pure-u"] {
@@ -15,7 +14,6 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: 'Roboto Condensed', sans-serif;
     font-weight: bold;
     color: rgb(75, 75, 75);
 }
@@ -102,7 +100,7 @@ a:visited {
     }
 
     .header h1 {
-        font-size: 320%;
+        font-size: 300%;
     }
     .header h2 {
         font-size: 128%;
