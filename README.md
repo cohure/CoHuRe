@@ -21,10 +21,14 @@ or get in <a href="mailto:folgert.karsdorp@meertens.knaw.nl">contact</a>.
 So who's in?
 
 ### Supporters
-<a href="http://dhlab.nl">DHLab</a> - KNAW Humanities Cluster 
-
-...
+- Marieke van Erp - DHLab, KNAW Humanities Cluster
+- Folgert Karsdorp - KNAW Meertens Instituut
+- Ted Underwood - University of Illinois
+- Melvin Wevers - DHLab, KNAW Humanities Cluster
+- Joris van Zundert - Huygens ING
+- ...
 
 
 ### Contact
-For questions, ideas, support, comments, etc. contact Folgert Karsdorp (<folgert.karsdorp@meertens.knaw.nl>)
+For questions, ideas, support, comments, etc. contact Folgert Karsdorp
+(<folgert.karsdorp@meertens.knaw.nl>) or Melvin Wevers (<melvin.wevers@dh.huc.knaw.nl>).
