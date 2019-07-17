@@ -21,7 +21,7 @@ or get in <a href="mailto:folgert.karsdorp@meertens.knaw.nl">contact</a>.
 So who's in?
 
 ### Supporters
-DHLAB - KNAW Humanities Cluster 
+<a href="http://dhlab.nl">DHLab</a> - KNAW Humanities Cluster 
 
 ...
 
