@@ -27,4 +27,4 @@ So who's in?
 
 
 ### Contact
-For questions, ideas, support, comments, etc. contactFolgert Karsdorp (<folgert.karsdorp@meertens.knaw.nl>)
+For questions, ideas, support, comments, etc. contact Folgert Karsdorp (<folgert.karsdorp@meertens.knaw.nl>)
