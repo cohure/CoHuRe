@@ -28,6 +28,7 @@ So who's in?
 - Mike Kestemont - University of Antwerp
 - Cynthia Liem - Delft University of Technology
 - Enrique Manjavacas - University of Antwerp
+- Ben Miller - Georgia State University
 - Ruben Ros - Utrecht University
 - Marco Rospocher - University of Verona
 - Christof Schöch - University of Trier
