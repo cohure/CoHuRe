@@ -40,6 +40,7 @@ So who's in?
 - Ben Burtenshaw - University of Antwerp
 - Oleg Sobchuk -  Max Planck Institute for the Science of Human History
 - James Tauber - Eldarion
+- Jamie Tehrani - Durham University
 - Ted Underwood - University of Illinois
 - Melvin Wevers - DHLab, KNAW Humanities Cluster
 - Joris van Zundert - Huygens ING
