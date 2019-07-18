@@ -24,6 +24,7 @@ So who's in?
 - Antal van den Bosch - KNAW Meertens Institute
 - Hannah Busch - Huygens ING
 - Marieke van Erp - DHLab, KNAW Humanities Cluster
+- Lauren Fonteyn - Leiden University
 - Michael Gavin - University of South Carolina
 - Leah Henrickson - Loughborough University, UK
 - Folgert Karsdorp - KNAW Meertens Instituut
