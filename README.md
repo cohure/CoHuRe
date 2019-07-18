@@ -21,10 +21,18 @@ or get in <a href="mailto:folgert.karsdorp@meertens.knaw.nl">contact</a>.
 So who's in?
 
 ### Supporters
+- Antal van den Bosch - KNAW Meertens Institute
 - Marieke van Erp - DHLab, KNAW Humanities Cluster
 - Michael Gavin - University of South Carolina
 - Folgert Karsdorp - KNAW Meertens Instituut
+- Mike Kestemont - University of Antwerp
+- Enrique Manjavacas - University of Antwerp
+- Ruben Ros - Utrecht University
+- Marco Rospocher - University of Verona
+- Christof Schöch - University of Trier
+- Burten Shaw 
 - Oleg Sobchuk -  Max Planck Institute for the Science of Human History
+- James Tauber - Eldarion
 - Ted Underwood - University of Illinois
 - Melvin Wevers - DHLab, KNAW Humanities Cluster
 - Joris van Zundert - Huygens ING
