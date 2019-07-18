@@ -20,38 +20,6 @@ or get in <a href="mailto:folgert.karsdorp@meertens.knaw.nl">contact</a>.
 
 So who's in?
 
-### Supporters
-- Kaspar Beelen - Alan Turing Institute, London
-- Antal van den Bosch - KNAW Meertens Institute
-- Alex Brandsen - Leiden University
-- Hannah Busch - Huygens ING
-- Giovanni Colavizza - University of Amsterdam
-- Mariona Coll Ardanuy - Alan Turing Institute, London
-- Marieke van Erp - DHLab, KNAW Humanities Cluster
-- Lauren Fonteyn - Leiden University
-- Michael Gavin - University of South Carolina
-- Leah Henrickson - Loughborough University, UK
-- Folgert Karsdorp - KNAW Meertens Instituut
-- Mike Kestemont - University of Antwerp
-- Alie Lassche - Leiden University
-- Cynthia Liem - Delft University of Technology
-- Enrique Manjavacas - University of Antwerp
-- Erin A. McCarthy - University of Newcastle, Australia
-- Ben Miller - Georgia State University
-- Ruben Ros - Utrecht University
-- Marco Rospocher - University of Verona
-- Christof Schöch - University of Trier
-- Ben Burtenshaw - University of Antwerp
-- Oleg Sobchuk -  Max Planck Institute for the Science of Human History
-- James Tauber - Eldarion
-- Jamie Tehrani - Durham University
-- Ted Underwood - University of Illinois
-- Melvin Wevers - DHLab, KNAW Humanities Cluster
-- Eva Zangerle, University of Innsbruck, Austria
-- Joris van Zundert - Huygens ING
-- ...
-
-
 ### Contact
 For questions, ideas, support, comments, etc. contact Folgert Karsdorp
 (<folgert.karsdorp@meertens.knaw.nl>) or Melvin Wevers (<melvin.wevers@dh.huc.knaw.nl>).
