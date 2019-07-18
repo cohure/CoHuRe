@@ -26,6 +26,7 @@ So who's in?
 - Michael Gavin - University of South Carolina
 - Folgert Karsdorp - KNAW Meertens Instituut
 - Mike Kestemont - University of Antwerp
+- Cynthia Liem - Delft University of Technology
 - Enrique Manjavacas - University of Antwerp
 - Ruben Ros - Utrecht University
 - Marco Rospocher - University of Verona
