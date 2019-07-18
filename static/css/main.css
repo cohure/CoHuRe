@@ -88,6 +88,13 @@ a:visited {
     text-align: center;
 }
 
+.supporters {
+    font-size 90%;
+}
+
+.l-box {
+    padding-right: 0.1em;
+}
 
 @media screen and (min-width: 48em) {
 
@@ -117,6 +124,9 @@ a:visited {
     .content p {
         font-size: 1.125em;
     }
+    .supporters p {
+        font-size: 90%;
+    }
 }
 
 @media (max-width: 58em) {
@@ -124,10 +134,16 @@ a:visited {
         position: relative;
         left: 160px;
     }
+    .supporters p {
+        font-size: 90%;
+    }    
 }
 
 @media (max-width: 40em) {
     .logo {
         display: none;
     }
+    .supporters p {
+        font-size: 90%;
+    }    
 }
