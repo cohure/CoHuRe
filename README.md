@@ -22,12 +22,16 @@ So who's in?
 
 ### Supporters
 - Antal van den Bosch - KNAW Meertens Institute
+- Hannah Busch - Huygens ING
 - Marieke van Erp - DHLab, KNAW Humanities Cluster
 - Michael Gavin - University of South Carolina
+- Leah Henrickson - Loughborough University, UK
 - Folgert Karsdorp - KNAW Meertens Instituut
 - Mike Kestemont - University of Antwerp
+- Alie Lassche - Leiden University
 - Cynthia Liem - Delft University of Technology
 - Enrique Manjavacas - University of Antwerp
+- Erin A. McCarthy - University of Newcastle, Australia
 - Ben Miller - Georgia State University
 - Ruben Ros - Utrecht University
 - Marco Rospocher - University of Verona
