@@ -31,7 +31,7 @@ So who's in?
 - Ruben Ros - Utrecht University
 - Marco Rospocher - University of Verona
 - Christof Schöch - University of Trier
-- Burten Shaw 
+- Ben Burtenshaw - University of Antwerp
 - Oleg Sobchuk -  Max Planck Institute for the Science of Human History
 - James Tauber - Eldarion
 - Ted Underwood - University of Illinois
