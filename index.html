@@ -8,6 +8,29 @@
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/grids-responsive-min.css">
     <link rel="stylesheet" href="static/css/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="static/js/supporters.json"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function() {
+          $.getJSON("static/js/supporters.json", function(data) {
+              var supporters = [];          
+              data.forEach(function(entry) {
+                  supporters.push("<p>" + entry["name"] + " - " + entry["affiliation"] + "</p>")
+              });
+              var size = supporters.length / 2;
+
+              $("<div/>", {
+                  "class": "supporters pure-u-1 pure-u-md-1-2",
+                  html: supporters.slice(0, size).join("")
+              }).appendTo("#supporterlist");
+              
+              $("<div/>", {
+                  "class": "supporters pure-u-1 pure-u-md-1-2",
+                  html: supporters.slice(size, supporters.length).join("")
+              }).appendTo("#supporterlist");
+          });
+      });
+    </script>
   </head>
 
   <body>
@@ -53,110 +76,7 @@
         </p>
 
         <h2 class="content-subhead">Supporters</h2>
-        <div class="pure-g">
-          <div class="pure-u-1 pure-u-md-1-2">
-            <div class="supporters">
-                <p>Alberto Acerbi - University of Tübingen</p>
-                <p>Colin Allen - University of Pittsburgh</p>
-                <p>Tara Andrews - University of Vienna</p>
-                <p>Jonathan Armoza - New York University</p>
-                <p>Taylor Arnold - University of Richmond</p>
-                <p>David Beavan - The Alan Turing Institute, London</p>
-                <p>Kaspar Beelen - Alan Turing Institute, London</p>
-                <p>Elli Bleeker - KNAW Humanities Cluster</p>
-                <p>Antal van den Bosch - KNAW Meertens Institute</p>
-                <p>Alex Brandsen - Leiden University</p>
-                <p>Daniel Burckhardt - GHI Washington DC</p>
-                <p>Manuel Burghardt - Leipzig University</p>
-                <p>Ben Burtenshaw - University of Antwerp</p>
-                <p>Joanna Byszuk - Polish Academy of Sciences</p>
-                <p>Hannah Busch - Huygens ING</p>
-                <p>Ashley Champagne, Brown University</p>
-                <p>Giovanni Colavizza - University of Amsterdam</p>
-                <p>Mariona Coll Ardanuy - Alan Turing Institute, London</p>
-                <p>Tinghui Duan - University of Jena</p>
-                <p>Frederik Elwert - Ruhr University Bochum</p>
-                <p>Maud Ehrmann - EPFL, Switzerland</p>
-                <p>Marieke van Erp - DHLab, KNAW Humanities Cluster</p>
-                <p>Lauren Fonteyn - Leiden University</p>
-                <p>Daniella Gáti - Brandeis University</p>
-                <p>Michael Gavin - University of South Carolina</p>
-                <p>Stefan Hartmann - University of Bamberg</p>
-                <p>Rachel Hendery - Western Sydney University</p>
-                <p>Simon Hengchen - University of Helsinki</p>
-                <p>Leah Henrickson - Loughborough University, UK</p>
-                <p>Kasra Hosseini - The Alan Turing Institute, London</p>
-                <p>Rebecca Kahn - Alexander von Humboldt Institute for Internet and Society / Pelagios Network</p>
-                <p>Andres Karjus - University of Edinburgh</p>
-                <p>Folgert Karsdorp - KNAW Meertens Instituut</p>
-                <p>François Dominic Laramée - Université de Montréal</p>
-                <p>Zoe LeBlanc - Vanderbilt University and Scholars' Lab at UVA</p>
-                <p>Roy Ka-Wei Lee - University of Saskatchewan, Canada</p>
-                <p>Mike Kestemont - University of Antwerp</p>
-                <p>Martijn Kleppe - National Library of the Netherlands</p>
-                <p>Leonard Konle - Würzburg University</p>
-                <p>Marijn Koolen - KNAW Humanities Cluster</p>
-                <p>Peter van Kranenburg - KNAW Meertens Institute</p>
-                <p>Florian Kräutli - Max Planck Institute for the History of Science</p>
-                <p>Pierre-Carl Langlais, University of Montpellier</p>
-                <p>Alie Lassche - Utrecht University</p>
-                <p>Els Lefever - Ghent University</p>
-                <p>Cynthia Liem - Delft University of Technology</p>
-                <p>Harald Lordick, STI, Duisburg/Essen</p>
-                <p>Eetu Mäkelä - University of Helsinki</p>
-            </div>
-          </div>
-          <div class="pure-u-1 pure-u-md-1-2">
-            <div class="supporters">
-                <p>Enrique Manjavacas - University of Antwerp</p>
-                <p>Erin A. McCarthy - University of Newcastle, Australia</p>
-                <p>Natalia Mclean - University of Sydney</p>
-                <p>Barbara McGillivray - University of Cambridge and The Alan Turing Institute</p>
-                <p>Albert Meroño Peñuela - Vrije Universiteit Amsterdam</p>
-                <p>Ben Miller - Georgia State University</p>
-                <p>Francisco Mondaca - University of Cologne</p>
-                <p>Patricia Murrieta-Flores - Lancaster University</p>
-                <p>Jaimie Murdock - Indiana University</p>
-                <p>Federico Nanni - University of Mannheim</p>
-                <p>Clemens Neudecker - Berlin State Library</p>
-                <p>Nanne van Noord - University of Amsterdam</p>
-                <p>Jacco van Ossenbruggen - Centrum Wiskunde & Informatica (CWI)</p>
-                <p>Jessica Otis - RRCHNM, George Mason University</p>
-                <p>Janis Pagel - University of Stuttgart, Germany</p>
-                <p>Silvio Peroni - University of Bologna</p>
-                <p>Michael Piotrowski - University of Lausanne</p>
-                <p>Etienne Posthumus - Brill Publishers</p>
-                <p>Allen Riddell - Indiana University Bloomington</p>
-                <p>Matteo Romanello - École polytechnique fédérale de Lausanne</p>
-                <p>Ruben Ros - Utrecht University</p>
-                <p>Marco Rospocher - University of Verona</p>
-                <p>Xavier Rubio-Campillo - University of Edinburgh</p>
-                <p>Christof Schöch - University of Trier</p>
-                <p>Nils Reiter - Stuttgart University, Germany</p>
-                <p>Ettore Rizza - Université Libre de Bruxelles</p>
-                <p>Iza Romanowska - BSC-CNS</p>
-                <p>Javier de la Rosa - UNED</p>
-                <p>Tanja Scheffler - University of Potsdam</p>
-                <p>Anna-Maria Sichani - Sussex Humanities Lab</p>
-                <p>Oleg Sobchuk -  Max Planck Institute for the Science of Human History</p>
-                <p>Daniel van Strien - British Library</p>
-                <p>Mark Schwindt - Ruhr University Bochum</p>
-                <p>James Tauber - Eldarion</p>
-                <p>Jamie Tehrani - Durham University</p>
-                <p>Tabea Tietz - FIZ Karlsruhe & KIT, Germany</p>
-                <p>Peeter Tinits - University of Tartu</p>
-                <p>Ted Underwood - University of Illinois</p>
-                <p>Scott Weingart - Carnegie Mellon University Libraries</p>
-                <p>Melvin Wevers - DHLab, KNAW Humanities Cluster</p>
-                <p>Lars Wieneke - University of Luxembourg</p>
-                <p>Heleen Wilbrink - Aincient</p>
-                <p>Florian Windhager - Danube University Krems</p>
-                <p>Thorsten Wübbena - DFK, Paris</p>
-                <p>Eva Zangerle - University of Innsbruck, Austria</p>
-                <p>Joris van Zundert - Huygens ING</p>
-                <p>...</p>
-            </div>
-          </div>
+        <div id="supporterlist" class="pure-g">
         </div>
 
         <h2 class="content-subhead">Contact</h2>
