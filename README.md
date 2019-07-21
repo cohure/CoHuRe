@@ -20,6 +20,9 @@ or get in <a href="mailto:folgert.karsdorp@meertens.knaw.nl">contact</a>.
 
 So who's in?
 
+### Code of Conduct
+   We are currently working out the details concerning a suitable Code of Conduct for this community, which in any case will be dedicated to providing a welcoming and supportive environment for all people,         regardless of background and identity.
+
 ### Contact
 For questions, ideas, support, comments, etc. contact Folgert Karsdorp
 (<folgert.karsdorp@meertens.knaw.nl>) or Melvin Wevers (<melvin.wevers@dh.huc.knaw.nl>).
