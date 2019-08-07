@@ -72,6 +72,10 @@
         "name": "Mariona Coll Ardanuy"
     },
     {
+        "affiliation": "Arizona State University",
+        "name": "Julia Damerow"
+    },
+    {
         "affiliation": "Instituut voor de Nederlandse Taal, Leiden",
         "name": "Katrien Depuydt"
     },
@@ -122,6 +126,10 @@
     {
         "affiliation": "The Alan Turing Institute, London",
         "name": "Kasra Hosseini"
+    },
+    {
+        "affiliation": "International Centre for Archival Research (ICARUS)",
+        "name": "Daniel Jeller"
     },
     {
         "affiliation": "Alexander von Humboldt Institute for Internet and Society / Pelagios Network",
@@ -214,6 +222,10 @@
     {
         "affiliation": "University of Antwerp",
         "name": "Enrique Manjavacas"
+    },
+    {
+        "affiliation": "University of Wuppertal, Germany",
+        "name": "Stephan Makowski"
     },
     {
         "affiliation": "University of Newcastle, Australia",
@@ -315,6 +327,10 @@
         "name": "Christof Schöch"
     },
     {
+        "affiliation": "University of Münster, Germany",
+        "name": "Diego Siqueira"
+    },
+    {
         "affiliation": "Stuttgart University, Germany",
         "name": "Nils Reiter"
     },
@@ -375,6 +391,10 @@
         "name": "Ted Underwood"
     },
     {
+        "affiliation": "Max Planck Institute for the History of Science",
+        "name": "Malte Vogl"
+    },
+    {
         "affiliation": "University of Luxembourg",
         "name": "Niels-Oliver Walkowski"
     },
@@ -389,6 +409,10 @@
     {
         "affiliation": "University of Luxembourg",
         "name": "Lars Wieneke"
+    },
+    {
+        "affiliation": "Netherlands Institute of Sound and Vision",
+        "name": "Mari Wigham"
     },
     {
         "affiliation": "Aincient",
@@ -409,29 +433,5 @@
     {
         "affiliation": "Huygens ING",
         "name": "Joris van Zundert"
-    },
-    {
-        "affiliation": "Netherlands Institute of Sound and Vision",
-        "name": "Mari Wigham"
-    },
-    {
-        "affiliation": "Arizona State University",
-        "name": "Julia Damerow"
-    },
-    {
-        "affiliation": "University of Wuppertal, Germany",
-        "name": "Stephan Makowski"
-    },
-    {
-        "affiliation": "Max Planck Institute for the History of Science",
-        "name": "Malte Vogl"
-    },
-    {
-        "affiliation": "International Centre for Archival Research (ICARUS)",
-        "name": "Daniel Jeller"
-    },
-    {
-        "affiliation": "University of Münster, Germany",
-        "name": "Diego Siqueira"
     }
 ]
