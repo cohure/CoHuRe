@@ -1,474 +1,478 @@
 [
     {
-        "name": "Alberto Acerbi",
-        "affiliation": "University of Tübingen"
+        "affiliation": "University of Tübingen",
+        "name": "Alberto Acerbi"
     },
     {
-        "name": "Colin Allen",
-        "affiliation": "University of Pittsburgh"
+        "affiliation": "University of Pittsburgh",
+        "name": "Colin Allen"
     },
     {
-        "name": "Tara Andrews",
-        "affiliation": "University of Vienna"
+        "affiliation": "University of Vienna",
+        "name": "Tara Andrews"
     },
     {
-        "name": "Jonathan Armoza",
-        "affiliation": "New York University"
+        "affiliation": "New York University",
+        "name": "Jonathan Armoza"
     },
     {
-        "name": "Taylor Arnold",
-        "affiliation": "University of Richmond"
+        "affiliation": "University of Richmond",
+        "name": "Taylor Arnold"
     },
     {
-        "name": "David Beavan",
-        "affiliation": "The Alan Turing Institute, London"
+        "affiliation": "The Alan Turing Institute, London",
+        "name": "David Beavan"
     },
     {
-        "name": "Kaspar Beelen",
-        "affiliation": "Alan Turing Institute, London"
+        "affiliation": "Alan Turing Institute, London",
+        "name": "Kaspar Beelen"
     },
     {
-        "name": "Elli Bleeker",
-        "affiliation": "KNAW Humanities Cluster"
+        "affiliation": "KNAW Humanities Cluster",
+        "name": "Elli Bleeker"
     },
     {
-        "name": "Antal van den Bosch",
-        "affiliation": "KNAW Meertens Institute"
+        "affiliation": "KNAW Meertens Institute",
+        "name": "Antal van den Bosch"
     },
     {
-        "name": "Alex Brandsen",
-        "affiliation": "Leiden University"
+        "affiliation": "Leiden University",
+        "name": "Alex Brandsen"
     },
     {
-        "name": "Daniel Burckhardt",
-        "affiliation": "GHI Washington DC"
+        "affiliation": "GHI Washington DC",
+        "name": "Daniel Burckhardt"
     },
     {
-        "name": "Manuel Burghardt",
-        "affiliation": "Leipzig University"
+        "affiliation": "Leipzig University",
+        "name": "Manuel Burghardt"
     },
     {
-        "name": "Ben Burtenshaw",
-        "affiliation": "University of Antwerp"
+        "affiliation": "University of Antwerp",
+        "name": "Ben Burtenshaw"
     },
     {
-        "name": "Joanna Byszuk",
-        "affiliation": "Polish Academy of Sciences"
+        "affiliation": "Polish Academy of Sciences",
+        "name": "Joanna Byszuk"
     },
     {
-        "name": "Hannah Busch",
-        "affiliation": "Huygens ING"
+        "affiliation": "Huygens ING",
+        "name": "Hannah Busch"
     },
     {
-        "name": "Ashley Champagne",
-        "affiliation": "Brown University"
+        "affiliation": "Brown University",
+        "name": "Ashley Champagne"
     },
     {
-        "name": "Frédéric Clavert",
-        "affiliation": "C2DH, University of Luxembourg"
+        "affiliation": "C2DH, University of Luxembourg",
+        "name": "Frédéric Clavert"
     },
     {
-        "name": "Giovanni Colavizza",
-        "affiliation": "University of Amsterdam"
+        "affiliation": "University of Amsterdam",
+        "name": "Giovanni Colavizza"
     },
     {
-        "name": "Mariona Coll Ardanuy",
-        "affiliation": "Alan Turing Institute, London"
+        "affiliation": "Alan Turing Institute, London",
+        "name": "Mariona Coll Ardanuy"
     },
     {
-        "name": "Julia Damerow",
-        "affiliation": "Arizona State University"
+        "affiliation": "Arizona State University",
+        "name": "Julia Damerow"
     },
     {
-        "name": "Katrien Depuydt",
-        "affiliation": "Instituut voor de Nederlandse Taal, Leiden"
+        "affiliation": "Instituut voor de Nederlandse Taal, Leiden",
+        "name": "Katrien Depuydt"
     },
     {
-        "name": "Tinghui Duan",
-        "affiliation": "University of Jena"
+        "affiliation": "University of Jena",
+        "name": "Tinghui Duan"
     },
     {
-        "name": "Frederik Elwert",
-        "affiliation": "Ruhr University Bochum"
+        "affiliation": "Ruhr University Bochum",
+        "name": "Frederik Elwert"
     },
     {
-        "name": "Maud Ehrmann",
-        "affiliation": "EPFL, Switzerland"
+        "affiliation": "EPFL, Switzerland",
+        "name": "Maud Ehrmann"
     },
     {
-        "name": "Marieke van Erp",
-        "affiliation": "DHLab, KNAW Humanities Cluster"
+        "affiliation": "DHLab, KNAW Humanities Cluster",
+        "name": "Marieke van Erp"
     },
     {
-        "name": "Paul Evans",
-        "affiliation": "University of San Diego"
+        "affiliation": "University of San Diego",
+        "name": "Paul Evans"
     },
     {
-        "name": "Lauren Fonteyn",
-        "affiliation": "Leiden University"
+        "affiliation": "Leiden University",
+        "name": "Lauren Fonteyn"
     },
     {
-        "name": "Daniella Gáti",
-        "affiliation": "Brandeis University"
+        "affiliation": "Brandeis University",
+        "name": "Daniella Gáti"
     },
     {
-        "name": "Michael Gavin",
-        "affiliation": "University of South Carolina"
+        "affiliation": "University of South Carolina",
+        "name": "Michael Gavin"
     },
     {
-        "name": "David Goldstein",
-        "affiliation": "UCLA"
+        "affiliation": "UCLA",
+        "name": "David Goldstein"
     },
     {
-        "name": "Maarten van Gompel",
-        "affiliation": "Radboud University"
+        "affiliation": "Radboud University",
+        "name": "Maarten van Gompel"
     },
     {
-        "name": "Stefan Hartmann",
-        "affiliation": "University of Bamberg"
+        "affiliation": "University of Bamberg",
+        "name": "Stefan Hartmann"
     },
     {
-        "name": "Simon Hengchen",
-        "affiliation": "University of Helsinki"
+        "affiliation": "University of Helsinki",
+        "name": "Simon Hengchen"
     },
     {
-        "name": "Leah Henrickson",
-        "affiliation": "Loughborough University, UK"
+        "affiliation": "Loughborough University, UK",
+        "name": "Leah Henrickson"
     },
     {
-        "name": "Alex Hollinghead",
-        "affiliation": "University of Alabama"
+        "affiliation": "University of Alabama",
+        "name": "Alex Hollinghead"
     },
     {
-        "name": "Kasra Hosseini",
-        "affiliation": "The Alan Turing Institute, London"
+        "affiliation": "The Alan Turing Institute, London",
+        "name": "Kasra Hosseini"
     },
     {
-        "name": "Leonardo Impett",
-        "affiliation": "EPFL & Bibliotheca Hertziana"
+        "affiliation": "EPFL & Bibliotheca Hertziana",
+        "name": "Leonardo Impett"
     },
     {
-        "name": "Daniel Jeller",
-        "affiliation": "International Centre for Archival Research (ICARUS)"
+        "affiliation": "International Centre for Archival Research (ICARUS)",
+        "name": "Daniel Jeller"
     },
     {
-        "name": "Rebecca Kahn",
-        "affiliation": "Alexander von Humboldt Institute for Internet and Society / Pelagios Network"
+        "affiliation": "Alexander von Humboldt Institute for Internet and Society / Pelagios Network",
+        "name": "Rebecca Kahn"
     },
     {
-        "name": "Andres Karjus",
-        "affiliation": "University of Edinburgh"
+        "affiliation": "University of Edinburgh",
+        "name": "Andres Karjus"
     },
     {
-        "name": "Folgert Karsdorp",
-        "affiliation": "KNAW Meertens Instituut"
+        "affiliation": "KNAW Meertens Instituut",
+        "name": "Folgert Karsdorp"
     },
     {
-        "name": "Péter Király",
-        "affiliation": "Göttingen eResearch Alliance"
+        "affiliation": "Göttingen eResearch Alliance",
+        "name": "Péter Király"
     },
     {
-        "name": "François Dominic Laramée",
-        "affiliation": "Université de Montréal"
+        "affiliation": "Université de Montréal",
+        "name": "François Dominic Laramée"
     },
     {
-        "name": "Zoe LeBlanc",
-        "affiliation": "Vanderbilt University and Scholars' Lab at UVA"
+        "affiliation": "Vanderbilt University and Scholars' Lab at UVA",
+        "name": "Zoe LeBlanc"
     },
     {
-        "name": "Roy Ka-Wei Lee",
-        "affiliation": "University of Saskatchewan, Canada"
+        "affiliation": "University of Saskatchewan, Canada",
+        "name": "Roy Ka-Wei Lee"
     },
     {
-        "name": "Mike Kestemont",
-        "affiliation": "University of Antwerp"
+        "affiliation": "University of Antwerp",
+        "name": "Mike Kestemont"
     },
     {
-        "name": "Franziska Klemstein",
-        "affiliation": "Bauhaus-Universität Weimar"
+        "affiliation": "Bauhaus-Universität Weimar",
+        "name": "Franziska Klemstein"
     },
     {
-        "name": "Martijn Kleppe",
-        "affiliation": "National Library of the Netherlands"
+        "affiliation": "National Library of the Netherlands",
+        "name": "Martijn Kleppe"
     },
     {
-        "name": "Thomas Koentges",
-        "affiliation": "University of Leipzig"
+        "affiliation": "University of Leipzig",
+        "name": "Thomas Koentges"
     },
     {
-        "name": "Leonard Konle",
-        "affiliation": "Würzburg University"
+        "affiliation": "Würzburg University",
+        "name": "Leonard Konle"
     },
     {
-        "name": "Marijn Koolen",
-        "affiliation": "KNAW Humanities Cluster"
+        "affiliation": "KNAW Humanities Cluster",
+        "name": "Marijn Koolen"
     },
     {
-        "name": "Peter van Kranenburg",
-        "affiliation": "KNAW Meertens Institute"
+        "affiliation": "KNAW Meertens Institute",
+        "name": "Peter van Kranenburg"
     },
     {
-        "name": "Florian Kräutli",
-        "affiliation": "Max Planck Institute for the History of Science"
+        "affiliation": "Max Planck Institute for the History of Science",
+        "name": "Florian Kräutli"
     },
     {
-        "name": "Sarah Lang",
-        "affiliation": "University of Graz"
+        "affiliation": "University of Graz",
+        "name": "Sarah Lang"
     },
     {
-        "name": "Pierre-Carl Langlais",
-        "affiliation": "University of Montpellier"
+        "affiliation": "University of Montpellier",
+        "name": "Pierre-Carl Langlais"
     },
     {
-        "name": "Alie Lassche",
-        "affiliation": "Utrecht University"
+        "affiliation": "Utrecht University",
+        "name": "Alie Lassche"
     },
     {
-        "name": "Els Lefever",
-        "affiliation": "Ghent University"
+        "affiliation": "Ghent University",
+        "name": "Els Lefever"
     },
     {
-        "name": "Cynthia Liem",
-        "affiliation": "Delft University of Technology"
+        "affiliation": "Delft University of Technology",
+        "name": "Cynthia Liem"
     },
     {
-        "name": "Nathan Loewen",
-        "affiliation": "University of Alabama"
+        "affiliation": "University of Alabama",
+        "name": "Nathan Loewen"
     },
     {
-        "name": "Harald Lordick",
-        "affiliation": "STI, Duisburg/Essen"
+        "affiliation": "STI, Duisburg/Essen",
+        "name": "Harald Lordick"
     },
     {
-        "name": "Eetu Mäkelä",
-        "affiliation": "University of Helsinki"
+        "affiliation": "University of Helsinki",
+        "name": "Eetu Mäkelä"
     },
     {
-        "name": "Enrique Manjavacas",
-        "affiliation": "University of Antwerp"
+        "affiliation": "University of Antwerp",
+        "name": "Enrique Manjavacas"
     },
     {
-        "name": "Stephan Makowski",
-        "affiliation": "University of Wuppertal, Germany"
+        "affiliation": "University of Wuppertal, Germany",
+        "name": "Stephan Makowski"
     },
     {
-        "name": "Erin A. McCarthy",
-        "affiliation": "University of Newcastle, Australia"
+        "affiliation": "University of Newcastle, Australia",
+        "name": "Erin A. McCarthy"
     },
     {
-        "name": "Anne Ladyem McDivitt",
-        "affiliation": "University of Alabama"
+        "affiliation": "University of Alabama",
+        "name": "Anne Ladyem McDivitt"
     },
     {
-        "name": "Natalia Mclean",
-        "affiliation": "University of Sydney"
+        "affiliation": "University of Sydney",
+        "name": "Natalia Mclean"
     },
     {
-        "name": "Barbara McGillivray",
-        "affiliation": "University of Cambridge and The Alan Turing Institute"
+        "affiliation": "University of Cambridge and The Alan Turing Institute",
+        "name": "Barbara McGillivray"
     },
     {
-        "name": "Albert Meroño Peñuela",
-        "affiliation": "Vrije Universiteit Amsterdam"
+        "affiliation": "Vrije Universiteit Amsterdam",
+        "name": "Albert Meroño Peñuela"
     },
     {
-        "name": "George Mikros",
-        "affiliation": "National and Kapodistrian University of Athens"
+        "affiliation": "National and Kapodistrian University of Athens",
+        "name": "George Mikros"
     },
     {
-        "name": "Ben Miller",
-        "affiliation": "Georgia State University"
+        "affiliation": "Georgia State University",
+        "name": "Ben Miller"
     },
     {
-        "name": "Francisco Mondaca",
-        "affiliation": "University of Cologne"
+        "affiliation": "University of Cologne",
+        "name": "Francisco Mondaca"
     },
     {
-        "name": "Patricia Murrieta-Flores",
-        "affiliation": "Lancaster University"
+        "affiliation": "Lancaster University",
+        "name": "Patricia Murrieta-Flores"
     },
     {
-        "name": "Jaimie Murdock",
-        "affiliation": "Indiana University"
+        "affiliation": "Indiana University",
+        "name": "Jaimie Murdock"
     },
     {
-        "name": "Federico Nanni",
-        "affiliation": "University of Mannheim"
+        "affiliation": "University of Mannheim",
+        "name": "Federico Nanni"
     },
     {
-        "name": "Adina Nerghes",
-        "affiliation": "DHLab, KNAW Humanities Cluster"
+        "affiliation": "DHLab, KNAW Humanities Cluster",
+        "name": "Adina Nerghes"
     },
     {
-        "name": "Clemens Neudecker",
-        "affiliation": "Berlin State Library"
+        "affiliation": "Berlin State Library",
+        "name": "Clemens Neudecker"
     },
     {
-        "name": "Nanne van Noord",
-        "affiliation": "University of Amsterdam"
+        "affiliation": "University of Amsterdam",
+        "name": "Nanne van Noord"
     },
     {
-        "name": "Jacco van Ossenbruggen",
-        "affiliation": "Centrum Wiskunde & Informatica (CWI)"
+        "affiliation": "Centrum Wiskunde & Informatica (CWI)",
+        "name": "Jacco van Ossenbruggen"
     },
     {
-        "name": "Jessica Otis",
-        "affiliation": "RRCHNM, George Mason University"
+        "affiliation": "RRCHNM, George Mason University",
+        "name": "Jessica Otis"
     },
     {
-        "name": "Janis Pagel",
-        "affiliation": "University of Stuttgart, Germany"
+        "affiliation": "University of Stuttgart, Germany",
+        "name": "Janis Pagel"
     },
     {
-        "name": "Silvio Peroni",
-        "affiliation": "University of Bologna"
+        "affiliation": "University of Bologna",
+        "name": "Silvio Peroni"
     },
     {
-        "name": "Michael Piotrowski",
-        "affiliation": "University of Lausanne"
+        "affiliation": "University of Lausanne",
+        "name": "Michael Piotrowski"
     },
     {
-        "name": "Andrew Piper",
-        "affiliation": "McGill University"
+        "affiliation": "McGill University",
+        "name": "Andrew Piper"
     },
     {
-        "name": "Etienne Posthumus",
-        "affiliation": "Brill Publishers"
+        "affiliation": "Brill Publishers",
+        "name": "Etienne Posthumus"
     },
     {
-        "name": "Allen Riddell",
-        "affiliation": "Indiana University Bloomington"
+        "affiliation": "Indiana University Bloomington",
+        "name": "Allen Riddell"
     },
     {
-        "name": "Matteo Romanello",
-        "affiliation": "École polytechnique fédérale de Lausanne"
+        "affiliation": "École polytechnique fédérale de Lausanne",
+        "name": "Matteo Romanello"
     },
     {
-        "name": "Ruben Ros",
-        "affiliation": "Utrecht University"
+        "affiliation": "Utrecht University",
+        "name": "Ruben Ros"
     },
     {
-        "name": "Marco Rospocher",
-        "affiliation": "University of Verona"
+        "affiliation": "University of Verona",
+        "name": "Marco Rospocher"
     },
     {
-        "name": "Xavier Rubio-Campillo",
-        "affiliation": "University of Edinburgh"
+        "affiliation": "University of Edinburgh",
+        "name": "Xavier Rubio-Campillo"
     },
     {
-        "name": "Christof Schöch",
-        "affiliation": "University of Trier"
+        "affiliation": "University of Siegen",
+        "name": "Jan Oliver Rüdiger"
     },
     {
-        "name": "Diego Siqueira",
-        "affiliation": "University of Münster, Germany"
+        "affiliation": "University of Trier",
+        "name": "Christof Schöch"
     },
     {
-        "name": "Nils Reiter",
-        "affiliation": "Stuttgart University, Germany"
+        "affiliation": "University of Münster, Germany",
+        "name": "Diego Siqueira"
     },
     {
-        "name": "Ettore Rizza",
-        "affiliation": "Université Libre de Bruxelles"
+        "affiliation": "Stuttgart University, Germany",
+        "name": "Nils Reiter"
     },
     {
-        "name": "Iza Romanowska",
-        "affiliation": "BSC-CNS"
+        "affiliation": "Université Libre de Bruxelles",
+        "name": "Ettore Rizza"
     },
     {
-        "name": "Javier de la Rosa",
-        "affiliation": "UNED"
+        "affiliation": "BSC-CNS",
+        "name": "Iza Romanowska"
     },
     {
-        "name": "Tanja Scheffler",
-        "affiliation": "University of Potsdam"
+        "affiliation": "UNED",
+        "name": "Javier de la Rosa"
     },
     {
-        "name": "Anna-Maria Sichani",
-        "affiliation": "Sussex Humanities Lab"
+        "affiliation": "University of Potsdam",
+        "name": "Tanja Scheffler"
     },
     {
-        "name": "Oleg Sobchuk",
-        "affiliation": "Max Planck Institute for the Science of Human History"
+        "affiliation": "Sussex Humanities Lab",
+        "name": "Anna-Maria Sichani"
     },
     {
-        "name": "Daniel van Strien",
-        "affiliation": "British Library"
+        "affiliation": "Max Planck Institute for the Science of Human History",
+        "name": "Oleg Sobchuk"
     },
     {
-        "name": "Els Stronks",
-        "affiliation": "Universiteit Utrecht"
+        "affiliation": "British Library",
+        "name": "Daniel van Strien"
     },
     {
-        "name": "Mark Schwindt",
-        "affiliation": "Ruhr University Bochum"
+        "affiliation": "Universiteit Utrecht",
+        "name": "Els Stronks"
     },
     {
-        "name": "James Tauber",
-        "affiliation": "Eldarion"
+        "affiliation": "Ruhr University Bochum",
+        "name": "Mark Schwindt"
     },
     {
-        "name": "Jamie Tehrani",
-        "affiliation": "Durham University"
+        "affiliation": "Eldarion",
+        "name": "James Tauber"
     },
     {
-        "name": "Jeffrey Tharsen",
-        "affiliation": "University of Chicago"
+        "affiliation": "Durham University",
+        "name": "Jamie Tehrani"
     },
     {
-        "name": "Tabea Tietz",
-        "affiliation": "FIZ Karlsruhe & KIT, Germany"
+        "affiliation": "University of Chicago",
+        "name": "Jeffrey Tharsen"
     },
     {
-        "name": "Peeter Tinits",
-        "affiliation": "University of Tartu"
+        "affiliation": "FIZ Karlsruhe & KIT, Germany",
+        "name": "Tabea Tietz"
     },
     {
-        "name": "Ted Underwood",
-        "affiliation": "University of Illinois"
+        "affiliation": "University of Tartu",
+        "name": "Peeter Tinits"
     },
     {
-        "name": "Malte Vogl",
-        "affiliation": "Max Planck Institute for the History of Science"
+        "affiliation": "University of Illinois",
+        "name": "Ted Underwood"
     },
     {
-        "name": "Niels-Oliver Walkowski",
-        "affiliation": "University of Luxembourg"
+        "affiliation": "Max Planck Institute for the History of Science",
+        "name": "Malte Vogl"
     },
     {
-        "name": "Scott Weingart",
-        "affiliation": "Carnegie Mellon University Libraries"
+        "affiliation": "University of Luxembourg",
+        "name": "Niels-Oliver Walkowski"
     },
     {
-        "name": "Melvin Wevers",
-        "affiliation": "DHLab, KNAW Humanities Cluster"
+        "affiliation": "Carnegie Mellon University Libraries",
+        "name": "Scott Weingart"
     },
     {
-        "name": "Lars Wieneke",
-        "affiliation": "University of Luxembourg"
+        "affiliation": "DHLab, KNAW Humanities Cluster",
+        "name": "Melvin Wevers"
     },
     {
-        "name": "Mari Wigham",
-        "affiliation": "Netherlands Institute of Sound and Vision"
+        "affiliation": "University of Luxembourg",
+        "name": "Lars Wieneke"
     },
     {
-        "name": "Heleen Wilbrink",
-        "affiliation": "Aincient"
+        "affiliation": "Netherlands Institute of Sound and Vision",
+        "name": "Mari Wigham"
     },
     {
-        "name": "Florian Windhager",
-        "affiliation": "Danube University Krems"
+        "affiliation": "Aincient",
+        "name": "Heleen Wilbrink"
     },
     {
-        "name": "Thorsten Wübbena",
-        "affiliation": "DFK, Paris"
+        "affiliation": "Danube University Krems",
+        "name": "Florian Windhager"
     },
     {
-        "name": "Eva Zangerle",
-        "affiliation": "University of Innsbruck, Austria"
+        "affiliation": "DFK, Paris",
+        "name": "Thorsten Wübbena"
     },
     {
-        "name": "Joris van Zundert",
-        "affiliation": "Huygens ING"
+        "affiliation": "University of Innsbruck, Austria",
+        "name": "Eva Zangerle"
+    },
+    {
+        "affiliation": "Huygens ING",
+        "name": "Joris van Zundert"
     }
 ]
