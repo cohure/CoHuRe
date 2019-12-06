@@ -83,6 +83,10 @@
         "affiliation": "Arizona State University",
         "name": "Julia Damerow"
     },
+        {
+        "affiliation": "University of Bologna",
+        "name": "Marilena Daquino"
+    },
     {
         "affiliation": "Instituut voor de Nederlandse Taal, Leiden",
         "name": "Katrien Depuydt"
@@ -90,6 +94,10 @@
     {
         "affiliation": "University of Jena",
         "name": "Tinghui Duan"
+    },
+    {
+        "affiliation": "Sächsische Akademie der Wissenschaften / Universität Leipzig",
+        "name": "Thomas Efer"
     },
     {
         "affiliation": "Ruhr University Bochum",
@@ -362,6 +370,10 @@
     {
         "affiliation": "McGill University",
         "name": "Andrew Piper"
+    },
+    {
+        "affiliation": "Czech Academy of Sciences",
+        "name": "Petr Plechac"
     },
     {
         "affiliation": "Brill Publishers",
