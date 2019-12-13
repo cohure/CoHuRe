@@ -10,6 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script type="text/javascript" src="static/js/interested-parties.json"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.0/showdown.min.js"></script>
     <script>
       $(document).ready(function() {
           $.getJSON("static/js/interested-parties.json", function(data) {
@@ -29,6 +30,14 @@
                   html: parties.slice(size, parties.length).join("")
               }).appendTo("#parties");
           });
+
+          var converter = new showdown.Converter();
+          fetch('./cfp2020.md')
+              .then(response => response.text())
+              .then(text => $("<div/>", {
+                  "class": "cfp-contents",
+                  html: converter.makeHtml(text)
+              }).appendTo("#cfp"));
       });
     </script>
   </head>
@@ -42,29 +51,16 @@
           </div>
           <div class="pure-u-1-3">
             <div class="logo">
-              JCHR
+              CHR
             </div>
           </div>          
         </div>
       </div>
       <div class="content">
-        <p>
-          Despite the growing use of computational methods in humanities research by an
-          increasingly wide variety of scholars, many interdisciplinary scholars
-          (including ourselves) still feel that there is no suitable research-oriented
-          venue to present and/or publish robust, computational work that does not lose
-          sight of questions relevant to the humanities. As such, we aim to fill this
-          niche by creating a community for computational humanities researchers.
-        </p>
-
-        <p>
-          Ultimately, the goal of the computational humanities community is to set up a
-          research-oriented computational humanities journal and conference. In the coming
-          months, we will announce a workshop that is open to (short and long) full paper
-          submissions. This workshop will serve as a stepping stone to a new, open-access
-          journal of Computational Humanities Research.
-        </p>
-
+        <div id="cfp">
+        </div>
+        <hr>
+        <h2>Join the Community!</h2>
         <p>
           We cordially invite you and other interested parties to join the conversation
           about future steps! Add your name to
