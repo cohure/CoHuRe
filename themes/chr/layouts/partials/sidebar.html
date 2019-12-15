@@ -1,0 +1,14 @@
+<div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+  <a class="pure-menu-heading" href="/CoHuRe">CHR</a>
+    <ul class="pure-menu-list">
+      {{ $currentPage := . }}
+      {{ range .Site.Menus.main }}
+      <li class="pure-menu-item">
+        <a href="{{.URL}}" class="pure-menu-link">
+          {{ .Pre }}
+          <span>{{ .Name }}</span>
+        </a>
+      </li>
+      {{end}}
+    </ul>
+</div>

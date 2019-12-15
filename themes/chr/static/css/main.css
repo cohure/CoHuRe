@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+    font-family: 'Lora', serif;
+    letter-spacing: 0.01em;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, label {
+    color: #34495e;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 350%;
+    font-weight: 100;
+    margin: 0;
+    line-height: 1.4em;
+}
+
+.l-box {
+    padding: 1em;
+}
+
+.l-box-lrg {
+    padding: 2em;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.is-center {
+    text-align: center;
+}
+
+body {
+    background-color: rgba(255, 255, 255, 0.925);
+    line-height: 1.7em;
+    font-size: 13px;
+}
+
+.home-menu {
+    padding: 0.5em;
+    text-align: center;
+    box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
+}
+
+.interested {
+    font-size: 90%;
+}
+
+.home-menu {
+    background: #2d3e50;
+}
+.pure-menu.pure-menu-fixed {
+    border-bottom: none;
+    z-index: 4;
+}
+
+.home-menu .pure-menu-heading {
+    color: white;
+    font-weight: 400;
+    font-size: 120%;
+    font-family: "Open Sans", sans-serif;
+}
+
+.pure-menu-item {
+    font-family: "Open Sans", sans-serif;
+}
+
+.home-menu .pure-menu-selected a {
+    color: white;
+}
+
+.pure-menu-heading {
+    text-transform: capitalize;
+}
+
+.home-menu a {
+    color: #6FBEF3;
+}
+.home-menu li a:hover,
+.home-menu li a:focus {
+    background: none;
+    border: none;
+    color: #AECFE5;
+}
+
+a {
+  color:  #2d3e50;
+}
+
+.pure-button {
+    background-color: #1f8dd6;
+    color: white;
+    padding: 0.5em 2em;
+    border-radius: 5px;
+}
+
+a.pure-button-primary {
+    background: white;
+    color: #1f8dd6;
+    border-radius: 5px;
+    font-size: 120%;
+}
+
+::-moz-selection { color: #1f8dd6}
+::selection { color: #1f8dd6; }
+
+.title {
+    margin: 0 auto;
+    padding: 1em;
+    box-sizing: border-box;
+    padding-top: 6em;
+    padding-bottom: 2em;
+    text-align: center;
+    background: #fff;
+}
+
+.content-wrapper {
+    margin: 0 auto;
+    padding: 0 2em;
+    max-width: 850px;
+    margin-bottom: 50px;
+    line-height: 1.7em;    
+}
+
+.footer {
+    text-align: center;
+    background: #111;
+    color: #AECFE5;
+    position: fixed;
+    font-size: 80%;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (min-width: 48em) {
+
+    .interested {
+        font-size: 90%;
+    }
+
+    /* We increase the body font size */
+    body {
+        font-size: 18px;
+    }
+
+    /* We can align the menu header to the left, but float the
+    menu items to the right. */
+    .home-menu {
+        text-align: left;
+    }
+        .home-menu ul {
+            float: right;
+        }
+
+    /* We remove the border-separator assigned to .l-box-lrg */
+    .l-box-lrg {
+        border: none;
+    }
+
+}

@@ -1,0 +1,15 @@
+{{ define "main" }}
+<main aria-role="main">
+    <div class="title">
+        <h1>{{.Title}}</h1>
+        {{ with .Params.subtitle }}
+        <h2><em>
+        <span class="subtitle">{{.}}</span>
+        </em></h2>
+        {{ end }}
+    </div>
+    <div class="content">
+        {{.Content}}
+    </div>
+</main>
+{{ end }}

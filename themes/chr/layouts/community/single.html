@@ -1,0 +1,46 @@
+{{ define "main" }}
+<script>
+    var parties = {{ "js/interested-parties.json" | relURL }};
+    $(document).ready(function () {
+        $.getJSON(parties, function (data) {
+            var parties = [];
+            data.forEach(function (entry) {
+                console.log(entry);
+                parties.push("<p>" + entry["name"] + " - " + entry["affiliation"] + "</p>")
+            });
+            var size = parties.length / 2;
+            $("<div/>", {
+                "class": "interested pure-u-1 pure-u-md-12-24",
+                html: parties.slice(0, size).join("")
+            }).appendTo("#parties");
+
+            $("<div/>", {
+                "class": "interested pure-u-1 pure-u-md-1-24",
+                html: ""
+            }).appendTo("#parties");
+
+            $("<div/>", {
+                "class": "interested pure-u-1 pure-u-md-11-24",
+                html: parties.slice(size, parties.length).join("")
+            }).appendTo("#parties");
+        })
+    });
+</script>
+<main aria-role="main">
+    <div class="title">
+        <h1>{{.Title}}</h1>
+        {{ with .Params.subtitle }}
+        <h2><em>
+        <span class="subtitle">{{.}}</span>
+        </em></h2>
+        {{ end }}
+    </div>
+    <div class="content">
+        {{.Content}}
+        
+        <hr>
+        <h2 class="content-subhead">Interested Parties</h2>
+        <div id="parties" class="pure-g"></div>
+    </div>
+</main>
+{{ end }}

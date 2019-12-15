@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin&display=swap');
+
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+    font-family: 'Cabin', sans-serif;
+    letter-spacing: 0.01em;
+}
+
+body {
+    min-width: 320px;
+    background-color: #fff;
+    color: #777;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+    color: rgb(75, 75, 75);
+}
+h2 {
+    color: #3498db;
+}
+
+a {
+    color: #3498db; /* block-background-text-normal */
+    text-decoration: none;
+}
+
+a:visited {
+    color: #3498db; /* block-normal-text-normal */
+}
+
+.blue {
+    color: #3498db
+}
+
+#layout {
+    position: relative;
+    padding-left: 0;
+}
+
+.header {
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 1em;
+    padding-top: 2em;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+    background: #fff;
+    letter-spacing: 0.05em;
+}
+
+.header h1 {
+    font-size: 300%;
+    font-weight: 100;
+    margin: 0;
+}
+
+.logo {
+    font-size: 500%;
+    font-weight: 100;
+    letter-spacing: 0.1em;
+    color: #3498db;
+    text-transform: uppercase;
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+    max-width: 768px;
+    line-height: 1.8;
+    padding-top: 1em;
+}
+
+.content .content-subhead {
+    margin: 1.8em 0 1em 0;
+    font-weight: 300;
+    color: #3498db;
+    position: relative;
+}
+
+.footer {
+    font-size: 87.5%;
+    margin-top: 3.4286em;
+    padding: 1.1429em;
+    text-align: center;
+}
+
+.interested {
+    font-size 90%;
+}
+
+.l-box {
+    padding-right: 0.1em;
+}
+
+@media screen and (min-width: 48em) {
+
+    .l-wrap,
+    .l-wrap .content {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .content .l-wrap {
+        margin-left: -2em;
+        margin-right: -2em;
+    }
+
+    .header,
+    .content {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .header h1 {
+        font-size: 320%;
+    }
+    .header h2 {
+        font-size: 128%;
+    }
+
+    .content p {
+        font-size: 1.125em;
+    }
+    .interested p {
+        font-size: 90%;
+    }
+}
+
+@media (max-width: 58em) {
+    #layout.active {
+        position: relative;
+        left: 160px;
+    }
+    .interested p {
+        font-size: 90%;
+    }    
+}
+
+@media (max-width: 40em) {
+    .logo {
+        display: none;
+    }
+    .interested p {
+        font-size: 90%;
+    }    
+}

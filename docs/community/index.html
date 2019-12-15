@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Computational Humanities Research</title>
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css"
+  integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47"
+  crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/grids-responsive-min.css"> 
+  <link rel="stylesheet" href=/CoHuRe/css/main.css > 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head><body><header><div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+  <a class="pure-menu-heading" href="/CoHuRe">CHR</a>
+    <ul class="pure-menu-list">
+      
+      
+      <li class="pure-menu-item">
+        <a href="/CoHuRe/cfp/" class="pure-menu-link">
+          
+          <span>Call for Papers</span>
+        </a>
+      </li>
+      
+      <li class="pure-menu-item">
+        <a href="/CoHuRe/community/" class="pure-menu-link">
+          
+          <span>Community</span>
+        </a>
+      </li>
+      
+      <li class="pure-menu-item">
+        <a href="/CoHuRe/contact/" class="pure-menu-link">
+          
+          <span>Contact</span>
+        </a>
+      </li>
+      
+    </ul>
+</div></header><div class="content-wrapper">
+<script>
+    var parties = "/CoHuRe/js/interested-parties.json";
+    $(document).ready(function () {
+        $.getJSON(parties, function (data) {
+            var parties = [];
+            data.forEach(function (entry) {
+                console.log(entry);
+                parties.push("<p>" + entry["name"] + " - " + entry["affiliation"] + "</p>")
+            });
+            var size = parties.length / 2;
+            $("<div/>", {
+                "class": "interested pure-u-1 pure-u-md-12-24",
+                html: parties.slice(0, size).join("")
+            }).appendTo("#parties");
+
+            $("<div/>", {
+                "class": "interested pure-u-1 pure-u-md-1-24",
+                html: ""
+            }).appendTo("#parties");
+
+            $("<div/>", {
+                "class": "interested pure-u-1 pure-u-md-11-24",
+                html: parties.slice(size, parties.length).join("")
+            }).appendTo("#parties");
+        })
+    });
+</script>
+<main aria-role="main">
+    <div class="title">
+        <h1>Join the Community</h1>
+        
+    </div>
+    <div class="content">
+        <p>We cordially invite you and other interested parties to join the conversation about future steps! Add your name to the GitHub <a href="https://github.com/cohure/CoHuRe/issues/1">issue</a> or get in <a href="../contact">contact</a>.</p>
+<p>So who's in?</p>
+
+        
+        <hr>
+        <h2 class="content-subhead">Interested Parties</h2>
+        <div id="parties" class="pure-g"></div>
+    </div>
+</main>
+
+        </div>
+        
+    </body>
+</html>

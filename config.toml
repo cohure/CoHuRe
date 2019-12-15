@@ -1,0 +1,28 @@
+baseURL = "https://cohure.github.io/CoHuRe/"
+languageCode = "en-us"
+title = "Computational Humanities Research"
+theme = "chr"
+publishDir = "docs"
+
+[params]
+  customCSS = ["css/custom.css"]
+
+[menu]
+
+  [[menu.main]]
+    identifier = "cfp"
+    name = "Call for Papers"
+    url = "/cfp/"
+    weight = -1100
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = -210
+
+  [[menu.main]]
+    identifier = "community"
+    name = "Community"
+    url = "/community/"
+    weight = -1000    
