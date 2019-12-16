@@ -1,171 +1,145 @@
-@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-
-html, button, input, select, textarea,
-.pure-g [class *= "pure-u"] {
-    font-family: 'Lora', serif;
-    letter-spacing: 0.01em;
-}
-
-* {
+@import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css);
+html {
     -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
-}
-
-h1, h2, h3, h4, h5, h6, label {
-    color: #34495e;
-    font-family: 'Open Sans', sans-serif;
-}
-
-h1, h2, h3 {
-    font-weight: bold;
-}
-
-h1 {
-    font-size: 350%;
-    font-weight: 100;
-    margin: 0;
-    line-height: 1.4em;
-}
-
-.l-box {
-    padding: 1em;
-}
-
-.l-box-lrg {
-    padding: 2em;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
-}
-
-.is-center {
-    text-align: center;
+    font-family: "Fira Code", Monaco, Menlo, Consolas, monospace;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    min-height: 100%;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
 }
 
 body {
-    background-color: rgba(255, 255, 255, 0.925);
-    line-height: 1.7em;
-    font-size: 13px;
+    background-color: #fff;
 }
 
-.home-menu {
-    padding: 0.5em;
-    text-align: center;
-    box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
+nav ul a, nav .brand-logo, nav .material-icons, footer a, footer p {
+    color: #383d43;
 }
 
-.interested {
+nav ul a, nav, footer {
     font-size: 90%;
 }
 
-.home-menu {
-    background: #2d3e50;
-}
-.pure-menu.pure-menu-fixed {
-    border-bottom: none;
-    z-index: 4;
+.page-border {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
-.home-menu .pure-menu-heading {
-    color: white;
-    font-weight: 400;
+.bg--white {
+    flex: 1 0 auto;
+}
+
+main {
+    flex: 1 1 auto;
+}
+
+a, .url {
+    transition: color .3s ease;
+    text-decoration: none;
+    color: #4c83ff;
+}
+
+a:hover {
+    color: #2afadf;
+}
+
+nav ul a {
+    transition: color .3s ease;
+}
+
+nav ul a:hover {
+    background-color: transparent;
+}
+
+::-moz-selection {
+    color: #4c83ff
+}
+
+::selection {
+    color: #4c83ff;
+}
+
+h1, h2, h3, h4, h5, nav, footer {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #383d43;
+}
+
+.page-border {
+    padding: .8rem;
+    background-color: #2afadf;
+    background-image: linear-gradient(135deg, #2afadf 10%, #4c83ff 100%);
+}
+
+.brand-logo {
+    background: -webkit-linear-gradient(#2afadf 10%, #4c83ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media screen and (min-width:40em) {
+    html {
+        font-size: 17px;
+    }
+    .page-border {
+        padding: 2rem
+    }
+}
+
+.bg--white {
+    background-color: #fff;
+}
+
+h1 {
+    font-size: 320%;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 250%;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 140%;
+}
+
+h4 {
     font-size: 120%;
-    font-family: "Open Sans", sans-serif;
 }
 
-.pure-menu-item {
-    font-family: "Open Sans", sans-serif;
+.content {
+    color: #383d43;
 }
 
-.home-menu .pure-menu-selected a {
-    color: white;
-}
-
-.pure-menu-heading {
-    text-transform: capitalize;
-}
-
-.home-menu a {
-    color: #6FBEF3;
-}
-.home-menu li a:hover,
-.home-menu li a:focus {
-    background: none;
-    border: none;
-    color: #AECFE5;
-}
-
-a {
-  color:  #2d3e50;
-}
-
-.pure-button {
-    background-color: #1f8dd6;
-    color: white;
-    padding: 0.5em 2em;
-    border-radius: 5px;
-}
-
-a.pure-button-primary {
-    background: white;
-    color: #1f8dd6;
-    border-radius: 5px;
-    font-size: 120%;
-}
-
-::-moz-selection { color: #1f8dd6}
-::selection { color: #1f8dd6; }
-
-.title {
-    margin: 0 auto;
-    box-sizing: border-box;
-    padding-top: 6em;
-    padding-bottom: 2em;
-    text-align: center;
-    background: #fff;
-}
-
-.content-wrapper {
-    margin: 0 auto;
-    padding: 0 2em;
-    max-width: 850px;
-    margin-bottom: 50px;
-    line-height: 1.7em;    
-}
-
-.footer {
-    text-align: center;
-    background: #111;
-    color: #AECFE5;
-    position: fixed;
+.interested {
     font-size: 80%;
-    bottom: 0;
-    width: 100%;
 }
 
-@media (min-width: 48em) {
+.footer-copyright p {
+    font-size: 80%;
+}
 
-    .interested {
-        font-size: 90%;
+@media only screen and (min-width: 1200px) {
+    .container {
+        width: 60%;
     }
+}
 
-    /* We increase the body font size */
-    body {
-        font-size: 18px;
+@media screen and (max-width: 767px) {
+    html {
+        font-size: 13px;
     }
-
-    /* We can align the menu header to the left, but float the
-    menu items to the right. */
-    .home-menu {
-        text-align: left;
+    h1 {
+        font-size: 2rem;
     }
-        .home-menu ul {
-            float: right;
-        }
-
-    /* We remove the border-separator assigned to .l-box-lrg */
-    .l-box-lrg {
-        border: none;
+    h2 {
+        font-size: 2rem;
     }
-
 }

@@ -1,15 +1,13 @@
 {{ define "main" }}
-<main aria-role="main">
-    <div class="title">
-        <h1>{{.Title}}</h1>
-        {{ with .Params.subtitle }}
-        <h2><em>
-        <span class="subtitle">{{.}}</span>
-        </em></h2>
-        {{ end }}
+<div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+        <h2 class="header center">{{.Title}}</h2>
+        <h3 class="header center">{{.Params.description}}</h3>
     </div>
-    <div class="content">
-        {{.Content}}
+</div>
+<div class="container">
+    <div class="section content">
+        {{ .Content }}
     </div>
-</main>
+</div>
 {{ end }}

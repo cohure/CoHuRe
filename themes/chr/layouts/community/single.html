@@ -8,39 +8,35 @@
                 console.log(entry);
                 parties.push("<p>" + entry["name"] + " - " + entry["affiliation"] + "</p>")
             });
-            var size = parties.length / 2;
+            var size = parties.length / 3;
             $("<div/>", {
-                "class": "interested pure-u-1 pure-u-md-12-24",
-                html: parties.slice(0, size).join("")
+                "class": "interested col l4 s12",
+                html: parties.slice(0, size + 1).join("")
             }).appendTo("#parties");
 
             $("<div/>", {
-                "class": "interested pure-u-1 pure-u-md-1-24",
-                html: ""
-            }).appendTo("#parties");
-
+                "class": "interested col l4 s12",
+                html: parties.slice(size + 1, size * 2).join("")
+            }).appendTo("#parties");            
+         
             $("<div/>", {
-                "class": "interested pure-u-1 pure-u-md-11-24",
-                html: parties.slice(size, parties.length).join("")
+                "class": "interested col l4 s12",
+                html: parties.slice(size * 2, parties.length).join("")
             }).appendTo("#parties");
         })
     });
 </script>
-<main aria-role="main">
-    <div class="title">
-        <h1>{{.Title}}</h1>
-        {{ with .Params.subtitle }}
-        <h2><em>
-        <span class="subtitle">{{.}}</span>
-        </em></h2>
-        {{ end }}
+<div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+        <h2 class="header center">{{.Title}}</h2>
     </div>
-    <div class="content">
+</div>
+<div class="container">
+    <div class="section content">
         {{.Content}}
-        
-        <hr>
-        <h2 class="content-subhead">Interested Parties</h2>
-        <div id="parties" class="pure-g"></div>
     </div>
-</main>
+    <hr>
+    <h3 class="center">Interested Parties</h3>
+    <div id="parties" class="row content"></div>
+</div>
 {{ end }}

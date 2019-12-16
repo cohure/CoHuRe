@@ -1,13 +1,13 @@
 ---
 title: "CHR2020"
-subtitle: "Workshop on Computational Humanities Research"
+description: "Workshop on Computational Humanities Research"
 date: 2019-12-15T11:11:58+01:00
 ---
 
-*Amsterdam, November 2020 (exact date to be determined early 2020)*
-
+**Amsterdam, November 2020 (exact date to be determined early 2020)**
 *Organised by the [DHLab](http://dhlab.nl) of the KNAW Humanities Cluster*
 
+---
 
 In the humanities and related social sciences, the use of computational, statistical, and
 mathematical approaches has increased in recent years. The research can be characterized
@@ -25,7 +25,7 @@ research-oriented, open-access computational humanities journal. This workshop o
 Computational Humanities Research (CHR) will serve as a stepping stone to this journal. 
 
 
-## Illustrative Topics and Questions
+### Illustrative Topics and Questions
 - Statistical methods for Humanities data analysis;
 - Hypothesis-driven Humanities research;
 - Interpretation of results from statistical, empirical, and data-driven methods
@@ -40,13 +40,14 @@ Computational Humanities Research (CHR) will serve as a stepping stone to this j
 - Explanatory models for Humanities research;
 
 
-## Workshop goals
+### Workshop goals
 The aim of the workshop is threefold: 
 
-- Community: This gathering serves as a means to foster the formation of a community of
+- **Community**: This gathering serves as a means to foster the formation of a community of
   humanities scholars that rely on a wide range of computational approaches. We consider
   this community to be an addition to the digital humanities landscape.
-- Infrastructure: An important goal of this workshop is to find new ways of sharing our
+
+- **Infrastructure**: An important goal of this workshop is to find new ways of sharing our
   ‘research stories’. This includes the introduction of pre-registration of studies, which
   entails the submission of a registered report that includes theoretical justification,
   experimental design, and the proposed statistical analysis. Additionally, we want to
@@ -54,25 +55,26 @@ The aim of the workshop is threefold:
   approaches to answer questions relevant to the humanities. Finally, the workshop aims to
   make all publications, code, and data freely available, thus encouraging research
   transparency and replication of studies.
-- Dissemination: Our goal is to publish (a selection) of papers from the workshop in a
+
+- **Dissemination**: Our goal is to publish (a selection) of papers from the workshop in a
   special journal issue, which is yet to be determined.
 
 
-## Types of Submission
+### Types of Submission
 We accept three types of submissions:
 
-- Long Papers. Long papers report on completed, original and unpublished results. The
+- **Long Papers**. Long papers report on completed, original and unpublished results. The
   maximum length is 8 pages (two columns), excluding references. We welcome the use of
   appendices or other supplementary information. Accepted papers are expected to be
   presented at the workshop and will be published in the proceedings of the workshop.
 
-- Short Papers. Short papers report on original and unpublished results. The maximum
+- **Short Papers**. Short papers report on original and unpublished results. The maximum
   length is 4 pages (two columns), excluding references. Besides smaller, focussed
   contributions, short papers may present work in progress, negative results, and opinion
   pieces. Accepted papers are expected to be presented at the workshop and will be
   published in the proceedings of the workshop.
 
-- Tutorials. We also accept proposals for tutorials. These tutorials are meant to
+- **Tutorials**. We also accept proposals for tutorials. These tutorials are meant to
   highlight specific computational approaches and show how they can be implemented across
   different disciplines in the humanities. The maximum length is 2 pages (two columns),
   excluding references. Tutorial proposal should at minimum include description of
@@ -83,11 +85,11 @@ We accept three types of submissions:
 All papers and tutorial proposals will undergo double-blind peer-review.
 
 
-## Organizers
+### Organizers
 Marieke van Erp, Folgert Karsdorp, Adina Nerghes, Melvin Wevers
 
 
-## Contact
+### Contact
 - Folgert Karsdorp (folgert.karsdorp@meertens.knaw.nl)
 - Melvin Wevers (melvin.wevers@dh.huc.knaw.nl) 
 

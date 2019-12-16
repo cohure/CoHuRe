@@ -2,10 +2,16 @@
 <html>
     {{- partial "head.html" . -}}
     <body>
-        {{- partial "header.html" . -}}
-        <div class="content-wrapper">
-           {{- block "main" . }}{{- end }}
+        <div class="page-border">
+            {{- partial "header.html" . -}}
+                <div class="bg--white">
+                <main>
+                <div class="section no-pad-bot">
+                    {{- block "main" . }}{{- end }}
+                </div>
+                </main> 
+            </div>
+                {{- partial "footer.html" . -}}
         </div>
-        <!-- {{- partial "footer.html" . -}} -->
     </body>
 </html>
