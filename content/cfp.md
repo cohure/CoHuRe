@@ -4,8 +4,7 @@ description: "Workshop on Computational Humanities Research"
 date: 2019-12-15T11:11:58+01:00
 ---
 
-**Amsterdam, November 2020 (exact date to be determined early 2020)**
-*Organised by the [DHLab](http://dhlab.nl) of the KNAW Humanities Cluster*
+**Amsterdam, November 2020**, *Organised by the [DHLab](http://dhlab.nl) of the KNAW Humanities Cluster*
 
 ---
 
