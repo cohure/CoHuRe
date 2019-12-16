@@ -134,12 +134,19 @@ h4 {
 
 @media screen and (max-width: 767px) {
     html {
-        font-size: 13px;
+        font-size: 15px;
     }
     h1 {
         font-size: 2rem;
+        margin-top: -25px;
     }
     h2 {
         font-size: 2rem;
     }
+}
+
+nav .brand-logo {
+    font-weight: 500;
+    font-size: 3.2rem;
+    line-height: 70px;
 }
