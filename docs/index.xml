@@ -12,6 +12,15 @@
     
     
     <item>
+      <title></title>
+      <link>https://cohure.github.io/CoHuRe/about/</link>
+      <pubDate>Mon, 16 Dec 2019 10:58:28 +0100</pubDate>
+      
+      <guid>https://cohure.github.io/CoHuRe/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Contact</title>
       <link>https://cohure.github.io/CoHuRe/contact/</link>
       <pubDate>Sun, 15 Dec 2019 11:12:28 +0100</pubDate>
@@ -36,9 +45,8 @@ So who&#39;s in?</description>
       <pubDate>Sun, 15 Dec 2019 11:11:58 +0100</pubDate>
       
       <guid>https://cohure.github.io/CoHuRe/cfp/</guid>
-      <description>Amsterdam, November 2020 (exact date to be determined early 2020)
-Organised by the DHLab of the KNAW Humanities Cluster
-In the humanities and related social sciences, the use of computational, statistical, and mathematical approaches has increased in recent years. The research can be characterized by (i) relying on quantifiable rather than strictly qualitative evidence; (ii) making explicit and formalizing narrative theory with the help of mathematical and computational models; (iii) making statistical inferences about model parameters; (iv) the use of computational and automatic procedures for processing and analyzing data; and (v) searching for computational analogies through which theories from different disciplines can be unified.</description>
+      <description>Amsterdam, November 2020 (exact date to be determined early 2020) Organised by the DHLab of the KNAW Humanities Cluster
+ In the humanities and related social sciences, the use of computational, statistical, and mathematical approaches has increased in recent years. The research can be characterized by (i) relying on quantifiable rather than strictly qualitative evidence; (ii) making explicit and formalizing narrative theory with the help of mathematical and computational models; (iii) making statistical inferences about model parameters; (iv) the use of computational and automatic procedures for processing and analyzing data; and (v) searching for computational analogies through which theories from different disciplines can be unified.</description>
     </item>
     
   </channel>

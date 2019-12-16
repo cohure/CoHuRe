@@ -1,54 +1,71 @@
 <!DOCTYPE html>
 <html><head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
   <title>Computational Humanities Research</title>
-  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css"
-  integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47"
-  crossorigin="anonymous">
-  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/grids-responsive-min.css"> 
-  <link rel="stylesheet" href=/CoHuRe/css/main.css > 
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-</head><body><header><div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
-  <a class="pure-menu-heading" href="/CoHuRe">CHR</a>
-    <ul class="pure-menu-list">
-      
-      
-      <li class="pure-menu-item">
-        <a href="/CoHuRe/cfp/" class="pure-menu-link">
-          
-          <span>Call for Papers</span>
-        </a>
-      </li>
-      
-      <li class="pure-menu-item">
-        <a href="/CoHuRe/community/" class="pure-menu-link">
-          
-          <span>Community</span>
-        </a>
-      </li>
-      
-      <li class="pure-menu-item">
-        <a href="/CoHuRe/contact/" class="pure-menu-link">
-          
-          <span>Contact</span>
-        </a>
-      </li>
-      
-    </ul>
-</div></header><div class="content-wrapper">
-<main aria-role="main">
-    <div class="title">
-        <h1>CHR2020</h1>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href=/CoHuRe/css/main.css > 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</head><body>
+        <div class="page-border"><header>  <nav class="white z-depth-0" role="navigation">
+    <div class="nav-wrapper container">
+      <a href="/CoHuRe" class="brand-logo">CHR</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
         
-        <h2><em>
-        <span class="subtitle">Workshop on Computational Humanities Research</span>
-        </em></h2>
         
+        <li>
+          <a href="/CoHuRe/cfp/">Call for Papers</a>
+        </li>
+        
+        <li>
+          <a href="/CoHuRe/community/">Community</a>
+        </li>
+        
+        <li>
+          <a href="/CoHuRe/contact/">Contact</a>
+        </li>
+        
+      </ul>
     </div>
-    <div class="content">
-        <p><em>Amsterdam, November 2020 (exact date to be determined early 2020)</em></p>
-<p><em>Organised by the <a href="http://dhlab.nl">DHLab</a> of the KNAW Humanities Cluster</em></p>
+  </nav>
+<ul class="sidenav transparent z-depth-0" id="mobile-demo">
+  
+  
+<li>
+  <a href="/CoHuRe/cfp/" class="white-text">Call for Papers</a>
+</li>
+
+<li>
+  <a href="/CoHuRe/community/" class="white-text">Community</a>
+</li>
+
+<li>
+  <a href="/CoHuRe/contact/" class="white-text">Contact</a>
+</li>
+
+</ul>
+
+<script>
+  $(document).ready(function(){
+  $('.sidenav').sidenav();
+  });
+</script></header><div class="bg--white">
+                <main>
+                <div class="section no-pad-bot">
+<div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+        <h2 class="header center">CHR2020</h2>
+        <h3 class="header center">Workshop on Computational Humanities Research</h3>
+    </div>
+</div>
+<div class="container">
+    <div class="section content">
+        <p><strong>Amsterdam, November 2020 (exact date to be determined early 2020)</strong>
+<em>Organised by the <a href="http://dhlab.nl">DHLab</a> of the KNAW Humanities Cluster</em></p>
+<hr>
 <p>In the humanities and related social sciences, the use of computational, statistical, and
 mathematical approaches has increased in recent years. The research can be characterized
 by (i) relying on quantifiable rather than strictly qualitative evidence; (ii) making
@@ -63,7 +80,7 @@ humanities. As such, we aim to fill this niche by creating a community for Compu
 Humanities Research. Ultimately, the goal of the community is to set up a
 research-oriented, open-access computational humanities journal. This workshop on
 Computational Humanities Research (CHR) will serve as a stepping stone to this journal.</p>
-<h2 id="illustrative-topics-and-questions">Illustrative Topics and Questions</h2>
+<h3 id="illustrative-topics-and-questions">Illustrative Topics and Questions</h3>
 <ul>
 <li>Statistical methods for Humanities data analysis;</li>
 <li>Hypothesis-driven Humanities research;</li>
@@ -78,41 +95,47 @@ physics, psychology, and complexity science;</li>
 <li>How to bridge humanistic and statistical interpretations;</li>
 <li>Explanatory models for Humanities research;</li>
 </ul>
-<h2 id="workshop-goals">Workshop goals</h2>
+<h3 id="workshop-goals">Workshop goals</h3>
 <p>The aim of the workshop is threefold:</p>
 <ul>
-<li>Community: This gathering serves as a means to foster the formation of a community of
+<li>
+<p><strong>Community</strong>: This gathering serves as a means to foster the formation of a community of
 humanities scholars that rely on a wide range of computational approaches. We consider
-this community to be an addition to the digital humanities landscape.</li>
-<li>Infrastructure: An important goal of this workshop is to find new ways of sharing our
+this community to be an addition to the digital humanities landscape.</p>
+</li>
+<li>
+<p><strong>Infrastructure</strong>: An important goal of this workshop is to find new ways of sharing our
 ‘research stories’. This includes the introduction of pre-registration of studies, which
 entails the submission of a registered report that includes theoretical justification,
 experimental design, and the proposed statistical analysis. Additionally, we want to
 rethink the reviewing process for interdisciplinary studies that rely on computational
 approaches to answer questions relevant to the humanities. Finally, the workshop aims to
 make all publications, code, and data freely available, thus encouraging research
-transparency and replication of studies.</li>
-<li>Dissemination: Our goal is to publish (a selection) of papers from the workshop in a
-special journal issue, which is yet to be determined.</li>
+transparency and replication of studies.</p>
+</li>
+<li>
+<p><strong>Dissemination</strong>: Our goal is to publish (a selection) of papers from the workshop in a
+special journal issue, which is yet to be determined.</p>
+</li>
 </ul>
-<h2 id="types-of-submission">Types of Submission</h2>
+<h3 id="types-of-submission">Types of Submission</h3>
 <p>We accept three types of submissions:</p>
 <ul>
 <li>
-<p>Long Papers. Long papers report on completed, original and unpublished results. The
+<p><strong>Long Papers</strong>. Long papers report on completed, original and unpublished results. The
 maximum length is 8 pages (two columns), excluding references. We welcome the use of
 appendices or other supplementary information. Accepted papers are expected to be
 presented at the workshop and will be published in the proceedings of the workshop.</p>
 </li>
 <li>
-<p>Short Papers. Short papers report on original and unpublished results. The maximum
+<p><strong>Short Papers</strong>. Short papers report on original and unpublished results. The maximum
 length is 4 pages (two columns), excluding references. Besides smaller, focussed
 contributions, short papers may present work in progress, negative results, and opinion
 pieces. Accepted papers are expected to be presented at the workshop and will be
 published in the proceedings of the workshop.</p>
 </li>
 <li>
-<p>Tutorials. We also accept proposals for tutorials. These tutorials are meant to
+<p><strong>Tutorials</strong>. We also accept proposals for tutorials. These tutorials are meant to
 highlight specific computational approaches and show how they can be implemented across
 different disciplines in the humanities. The maximum length is 2 pages (two columns),
 excluding references. Tutorial proposal should at minimum include description of
@@ -122,18 +145,36 @@ published in the proceedings.</p>
 </li>
 </ul>
 <p>All papers and tutorial proposals will undergo double-blind peer-review.</p>
-<h2 id="organizers">Organizers</h2>
+<h3 id="organizers">Organizers</h3>
 <p>Marieke van Erp, Folgert Karsdorp, Adina Nerghes, Melvin Wevers</p>
-<h2 id="contact">Contact</h2>
+<h3 id="contact">Contact</h3>
 <ul>
 <li>Folgert Karsdorp (<a href="mailto:folgert.karsdorp@meertens.knaw.nl">folgert.karsdorp@meertens.knaw.nl</a>)</li>
 <li>Melvin Wevers (<a href="mailto:melvin.wevers@dh.huc.knaw.nl">melvin.wevers@dh.huc.knaw.nl</a>)</li>
 </ul>
 
     </div>
-</main>
+</div>
 
-        </div>
-        
+                </div>
+                </main> 
+            </div><footer class="page-footer docs-footer white">
+  <div class="container">
+    <div class="row center">
+      <div class="col s6">
+        <a href="community">Join the community!</a>
+      </div>
+      <div class="col s6">
+        <a href="https://twitter.com/CompHumResearch">Follow us on Twitter!</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright white">
+    <div class="container">
+      <p class="center-align">© 2019, Computational Humanities Research</p>
+    </div>
+  </div>
+</footer>
+</div>
     </body>
 </html>
