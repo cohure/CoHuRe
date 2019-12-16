@@ -138,8 +138,15 @@ h4 {
     }
     h1 {
         font-size: 2rem;
+        margin-top: -25px;
     }
     h2 {
         font-size: 2rem;
     }
+}
+
+nav .brand-logo {
+    font-weight: 500;
+    font-size: 3.2rem;
+    line-height: 70px;
 }
