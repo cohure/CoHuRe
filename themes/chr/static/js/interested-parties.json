@@ -28,6 +28,10 @@
         "name": "Kaspar Beelen"
     },
     {
+        "affiliation": "Utrecht University | Huygens ING",
+        "name": "Marnix van Berchum"
+    },
+    {
         "affiliation": "KNAW Humanities Cluster",
         "name": "Elli Bleeker"
     },
@@ -392,6 +396,14 @@
         "name": "Etienne Posthumus"
     },
     {
+        "affiliation": "Universidad Católica de Chile",
+        "name": "Riva Quiroga"
+    },
+    {
+        "affiliation": "CSIC, Madrid, Spain",
+        "name": "Daniel Riaño Rufilanchas"
+    },
+    {
         "affiliation": "Indiana University Bloomington",
         "name": "Allen Riddell"
     },
@@ -422,6 +434,10 @@
     {
         "affiliation": "University of Trier",
         "name": "Christof Schöch"
+    },
+    {
+        "affiliation": "Institute of Information and Communication Technologies",
+        "name": "Kiril Simov"
     },
     {
         "affiliation": "University of Münster, Germany",
