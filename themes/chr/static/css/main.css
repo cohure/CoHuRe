@@ -77,8 +77,14 @@ h1, h2, h3, h4, h5, nav, footer {
     background-image: linear-gradient(135deg, #2afadf 10%, #4c83ff 100%);
 }
 
+nav .brand-logo {
+    font-weight: 500;
+    font-size: 3.1rem;
+    line-height: 70px;
+}
+
 .brand-logo {
-    background: -webkit-linear-gradient(#2afadf 10%, #4c83ff 100%);
+    background: linear-gradient(135deg, #2afadf 10%, #4c83ff 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -143,10 +149,4 @@ h4 {
     h2 {
         font-size: 2rem;
     }
-}
-
-nav .brand-logo {
-    font-weight: 500;
-    font-size: 3.2rem;
-    line-height: 70px;
 }
