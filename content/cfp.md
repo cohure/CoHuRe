@@ -4,10 +4,7 @@ description: "Workshop on Computational Humanities Research"
 date: 2019-12-15T11:11:58+01:00
 ---
 
-**Amsterdam, November 2020**, *Organised by the [DHLab](http://dhlab.nl) of the KNAW Humanities Cluster*
-
----
-
+### Description
 In the humanities and related social sciences, the use of computational, statistical, and
 mathematical approaches has increased in recent years. The research can be characterized
 by (i) relying on quantifiable rather than strictly qualitative evidence; (ii) making
@@ -23,6 +20,15 @@ Humanities Research. Ultimately, the goal of the community is to set up a
 research-oriented, open-access computational humanities journal. This workshop on
 Computational Humanities Research (CHR) will serve as a stepping stone to this journal. 
 
+### Important dates (tentative)
+- **June 29, 2020**: Submission deadline;
+- **August 10, 2020**: Notification of acceptance;
+- **August 28, 2020**: Camera-ready papers due;
+- **November, 2020**: Workshop.
+
+### Venue
+
+**Amsterdam, November 2020**, *Organised by the [DHLab](http://dhlab.nl) of the KNAW Humanities Cluster*
 
 ### Illustrative Topics and Questions
 - Statistical methods for Humanities data analysis;
@@ -37,7 +43,6 @@ Computational Humanities Research (CHR) will serve as a stepping stone to this j
 - Statistical evaluation of categorisation / periodisation;
 - How to bridge humanistic and statistical interpretations;
 - Explanatory models for Humanities research;
-
 
 ### Workshop goals
 The aim of the workshop is threefold: 
@@ -63,20 +68,19 @@ The aim of the workshop is threefold:
 We accept three types of submissions:
 
 - **Long Papers**. Long papers report on completed, original and unpublished results. The
-  maximum length is 8 pages (two columns), excluding references. We welcome the use of
+  maximum length is 16 pages, plus up to 2 pages of references. We welcome the use of
   appendices or other supplementary information. Accepted papers are expected to be
   presented at the workshop and will be published in the proceedings of the workshop.
 
 - **Short Papers**. Short papers report on original and unpublished results. The maximum
-  length is 4 pages (two columns), excluding references. Besides smaller, focussed
+  length is 8 pages, plus up to 2 pages of references. Besides smaller, focussed
   contributions, short papers may present work in progress, negative results, and opinion
   pieces. Accepted papers are expected to be presented at the workshop and will be
   published in the proceedings of the workshop.
 
 - **Tutorials**. We also accept proposals for tutorials. These tutorials are meant to
   highlight specific computational approaches and show how they can be implemented across
-  different disciplines in the humanities. The maximum length is 2 pages (two columns),
-  excluding references. Tutorial proposal should at minimum include description of
+  different disciplines in the humanities. The maximum length is 4 pages, plus up to 1 page of references. Tutorial proposal should at minimum include description of
   method(s), goals, relevance to CHR, as well as information on the prerequisite
   knowledge, and material/logistical requirements. Tutorial proposals will not be
   published in the proceedings.
@@ -84,11 +88,37 @@ We accept three types of submissions:
 All papers and tutorial proposals will undergo double-blind peer-review.
 
 
+### Submission Formats
+Papers to CHR2020 may be submitted in either of the following two formats:
+
+1. **LaTeX Papers** should be prepared using the standard OASIcs template (details following soon);
+2. **doc(x) papers** may be submitted only for review.
+
+All final, accepted papers must be submitted in LaTeX using the standard OASIcs template.
+Final papers not submitted in this format will **not** be accepted.
+
+Papers should be submitted to the CHR2020 workshop Easychair website: https://easychair.org/conferences/?conf=chr2020 (**Note: not open yet**).
+
+
+### Program Committee
+
+- **Alberto Acerbi** -- Brunel University, London
+- **Tara Andrews** -- University of Vienna, Austria
+- **Maud Ehrmann** -- EPFL, Switzerland
+- **Pieter Francois** -- University of Oxford, UK
+- **Leah Henrickson** -- Loughborough University, UK
+- **Mike Kestemont** -- University of Antwerp, Belgium
+- **Cynthia Liem** -- Delft University of Technology, The Netherlands
+- **Barbara McGillivray** -- University of Cambridge & The Alan Turing Institute, UK
+- **George Mikros** -- National and Kapodistrian University of Athens, Greece
+- **Kristoffer Nielbo** -- Aarhus University, Denmark
+- **Michael Piotrowski** -- University of Lausanne, Switzerland
+- **Tatjana Scheffler** -- University of Potsdam, Germany
+- **Oleg Sobchuk** -- Max Planck Institute for the Science of Human History, Germany
+- **Ted Underwood** -- University of Illinois, U.S.A.
+- **Eva Zangerle** -- University of Innsbruck, Austria
+- **Joris van Zundert** -- Huygens ING, The Netherlands
+
+
 ### Organizers
 Marieke van Erp, Folgert Karsdorp, Adina Nerghes, Melvin Wevers
-
-
-### Contact
-- Folgert Karsdorp (folgert.karsdorp@meertens.knaw.nl)
-- Melvin Wevers (melvin.wevers@dh.huc.knaw.nl) 
-
