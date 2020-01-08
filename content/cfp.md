@@ -113,10 +113,11 @@ Papers should be submitted to the CHR2020 workshop Easychair website: https://ea
 - **George Mikros** -- National and Kapodistrian University of Athens, Greece
 - **Kristoffer Nielbo** -- Aarhus University, Denmark
 - **Michael Piotrowski** -- University of Lausanne, Switzerland
+- **Allen Riddell** -- Indiana University Bloomington, USA
 - **Iza Romanowska** -- Barcelona Supercomputing Center, Spain
 - **Tatjana Scheffler** -- University of Potsdam, Germany
 - **Oleg Sobchuk** -- Max Planck Institute for the Science of Human History, Germany
-- **Ted Underwood** -- University of Illinois, U.S.A.
+- **Ted Underwood** -- University of Illinois, USA
 - **Eva Zangerle** -- University of Innsbruck, Austria
 - **Joris van Zundert** -- Huygens ING, The Netherlands
 
