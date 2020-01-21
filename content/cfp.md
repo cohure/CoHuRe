@@ -104,12 +104,14 @@ Papers should be submitted to the CHR2020 workshop Easychair website: https://ea
 
 - **Alberto Acerbi** -- Brunel University, London
 - **Tara Andrews** -- University of Vienna, Austria
+- **Giovanni Colavizza** -- University of Amsterdam, The Netherlands
 - **Maud Ehrmann** -- EPFL, Switzerland
 - **Pieter Francois** -- University of Oxford, UK
 - **Leah Henrickson** -- Loughborough University, UK
 - **Mike Kestemont** -- University of Antwerp, Belgium
+- **Lauren Klein** -- Emory University, U.S.A.
 - **Cynthia Liem** -- Delft University of Technology, The Netherlands
-- **Barbara McGillivray** -- University of Cambridge & The Alan Turing Institute, UK
+- **Barbara McGillivray (Chair)** -- University of Cambridge & The Alan Turing Institute, UK
 - **George Mikros** -- National and Kapodistrian University of Athens, Greece
 - **Kristoffer Nielbo** -- Aarhus University, Denmark
 - **Michael Piotrowski** -- University of Lausanne, Switzerland
@@ -123,4 +125,4 @@ Papers should be submitted to the CHR2020 workshop Easychair website: https://ea
 
 
 ### Organizers
-Marieke van Erp, Folgert Karsdorp, Adina Nerghes, Melvin Wevers
+Marieke van Erp, Folgert Karsdorp (Chair), Adina Nerghes, Melvin Wevers (Chair)
