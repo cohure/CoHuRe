@@ -1,6 +1,6 @@
 ---
 title: "CHR2020"
-description: "Workshop on Computational Humanities Research"
+description: "Workshop on Computational Humanities Research (18-20 November 2020)"
 date: 2019-12-15T11:11:58+01:00
 ---
 
@@ -24,11 +24,11 @@ Computational Humanities Research (CHR) will serve as a stepping stone to this j
 - **June 29, 2020**: Submission deadline;
 - **August 10, 2020**: Notification of acceptance;
 - **August 28, 2020**: Camera-ready papers due;
-- **November, 2020**: Workshop.
+- **November 18-20, 2020**: Workshop.
 
 ### Venue
 
-**Amsterdam, November 2020**, *Organised by the [DHLab](http://dhlab.nl) of the KNAW Humanities Cluster*
+**International Institute of Social History (IISG), Amsterdam, November 2020**, *Organised by the [DHLab](http://dhlab.nl) of the KNAW Humanities Cluster*
 
 ### Illustrative Topics and Questions
 - Statistical methods for Humanities data analysis;
@@ -125,4 +125,4 @@ Papers should be submitted to the CHR2020 workshop Easychair website: https://ea
 
 
 ### Organizers
-Marieke van Erp, Folgert Karsdorp (Chair), Adina Nerghes, Melvin Wevers (Chair)
+Marieke van Erp, Folgert Karsdorp, Adina Nerghes, Melvin Wevers
