@@ -1,4 +1,4 @@
-baseURL = "https://cohure.github.io/CoHuRe/"
+baseURL = "https://computational-humanities-research/CoHuRe/"
 languageCode = "en-us"
 title = "Computational Humanities Research"
 theme = "chr"

@@ -1,41 +1,50 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Computational Humanities Research</title>
-    <link>https://cohure.github.io/CoHuRe/</link>
+    <link>https://computational-humanities-research/CoHuRe/</link>
     <description>Recent content on Computational Humanities Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 15 Dec 2019 11:12:14 +0100</lastBuildDate>
     
-	<atom:link href="https://cohure.github.io/CoHuRe/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://computational-humanities-research/CoHuRe/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Advisory Board</title>
+      <link>https://computational-humanities-research/CoHuRe/advisory-board/</link>
+      <pubDate>Mon, 16 Dec 2019 21:22:17 +0100</pubDate>
+      
+      <guid>https://computational-humanities-research/CoHuRe/advisory-board/</guid>
+      <description>Tara Andrews - University of Vienna, Austria Maud Ehrmann - EPFL, Switzerland Leah Henrickson - Loughborough University, UK Mike Kestemont - University of Antwerp, Belgium Barbara McGillivray - University of Cambridge and The Alan Turing Institute, UK George Mikros - National and Kapodistrian University of Athens, Greece Kristoffer Nielbo - Aarhus University, Denmark Michael Piotrowski - University of Lausanne, Switzerland Tatjana Scheffler - University of Potsdam, Germany Ted Underwood - University of Illinois, U.</description>
+    </item>
+    
+    <item>
       <title>Contact</title>
-      <link>https://cohure.github.io/CoHuRe/contact/</link>
+      <link>https://computational-humanities-research/CoHuRe/contact/</link>
       <pubDate>Sun, 15 Dec 2019 11:12:28 +0100</pubDate>
       
-      <guid>https://cohure.github.io/CoHuRe/contact/</guid>
+      <guid>https://computational-humanities-research/CoHuRe/contact/</guid>
       <description>For questions, ideas, support, contact Folgert Karsdorp or Melvin Wevers.</description>
     </item>
     
     <item>
       <title>Join the Community</title>
-      <link>https://cohure.github.io/CoHuRe/community/</link>
+      <link>https://computational-humanities-research/CoHuRe/community/</link>
       <pubDate>Sun, 15 Dec 2019 11:12:28 +0100</pubDate>
       
-      <guid>https://cohure.github.io/CoHuRe/community/</guid>
+      <guid>https://computational-humanities-research/CoHuRe/community/</guid>
       <description>We cordially invite you and other interested parties to join the conversation about future steps! Add your name to the GitHub issue or get in contact.
 So who&amp;rsquo;s in?</description>
     </item>
     
     <item>
       <title>CHR2020</title>
-      <link>https://cohure.github.io/CoHuRe/cfp/</link>
+      <link>https://computational-humanities-research/CoHuRe/cfp/</link>
       <pubDate>Sun, 15 Dec 2019 11:11:58 +0100</pubDate>
       
-      <guid>https://cohure.github.io/CoHuRe/cfp/</guid>
+      <guid>https://computational-humanities-research/CoHuRe/cfp/</guid>
       <description>Description In the humanities and related social sciences, the use of computational, statistical, and mathematical approaches has increased in recent years. The research can be characterized by (i) relying on quantifiable rather than strictly qualitative evidence; (ii) making explicit and formalizing narrative theory with the help of mathematical and computational models; (iii) making statistical inferences about model parameters; (iv) the use of computational and automatic procedures for processing and analyzing data; and (v) searching for computational analogies through which theories from different disciplines can be unified.</description>
     </item>
     
