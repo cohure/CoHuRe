@@ -1,4 +1,4 @@
-baseURL = "http://www.computational-humanities-research/"
+baseURL = "http://www.computational-humanities-research/CoHuRe"
 languageCode = "en-us"
 title = "Computational Humanities Research"
 theme = "chr"
