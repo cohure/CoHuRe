@@ -104,6 +104,7 @@ Papers should be submitted to the CHR2020 workshop Easychair website: https://ea
 
 - **Alberto Acerbi** -- Brunel University, London
 - **Tara Andrews** -- University of Vienna, Austria
+- **Manuel Burghardt** -- Universität Leipzig, Germany
 - **Giovanni Colavizza** -- University of Amsterdam, The Netherlands
 - **Maud Ehrmann** -- EPFL, Switzerland
 - **Pieter Francois** -- University of Oxford, UK
