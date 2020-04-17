@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Computational Humanities Research</title>
@@ -10,15 +10,6 @@
     
 	<atom:link href="http://www.computational-humanities-research/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Advisory Board</title>
-      <link>http://www.computational-humanities-research/advisory-board/</link>
-      <pubDate>Mon, 16 Dec 2019 21:22:17 +0100</pubDate>
-      
-      <guid>http://www.computational-humanities-research/advisory-board/</guid>
-      <description>Tara Andrews - University of Vienna, Austria Maud Ehrmann - EPFL, Switzerland Leah Henrickson - Loughborough University, UK Mike Kestemont - University of Antwerp, Belgium Barbara McGillivray - University of Cambridge and The Alan Turing Institute, UK George Mikros - National and Kapodistrian University of Athens, Greece Kristoffer Nielbo - Aarhus University, Denmark Michael Piotrowski - University of Lausanne, Switzerland Tatjana Scheffler - University of Potsdam, Germany Ted Underwood - University of Illinois, U.</description>
-    </item>
     
     <item>
       <title>Contact</title>
@@ -45,7 +36,7 @@ So who&amp;rsquo;s in?</description>
       <pubDate>Sun, 15 Dec 2019 11:11:58 +0100</pubDate>
       
       <guid>http://www.computational-humanities-research/cfp/</guid>
-      <description>Description In the humanities and related social sciences, the use of computational, statistical, and mathematical approaches has increased in recent years. The research can be characterized by (i) relying on quantifiable rather than strictly qualitative evidence; (ii) making explicit and formalizing narrative theory with the help of mathematical and computational models; (iii) making statistical inferences about model parameters; (iv) the use of computational and automatic procedures for processing and analyzing data; and (v) searching for computational analogies through which theories from different disciplines can be unified.</description>
+      <description>Description In the humanities and related social sciences, the use of computational, statistical, and mathematical approaches has increased in recent years. The research can be characterized by (i) relying on quantifiable rather than strictly qualitative evidence; (ii) making explicit and formalizing theory with the help of mathematical and computational models; (iii) making statistical inferences about model parameters; (iv) the use of computational and automatic procedures for processing and analyzing data; and (v) searching for computational analogies through which theories from different disciplines can be unified.</description>
     </item>
     
   </channel>

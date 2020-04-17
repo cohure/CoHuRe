@@ -8,7 +8,7 @@ date: 2019-12-15T11:11:58+01:00
 In the humanities and related social sciences, the use of computational, statistical, and
 mathematical approaches has increased in recent years. The research can be characterized
 by (i) relying on quantifiable rather than strictly qualitative evidence; (ii) making
-explicit and formalizing narrative theory with the help of mathematical and computational
+explicit and formalizing theory with the help of mathematical and computational
 models; (iii) making statistical inferences about model parameters; (iv) the use of
 computational and automatic procedures for processing and analyzing data; and (v)
 searching for computational analogies through which theories from different disciplines
