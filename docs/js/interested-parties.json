@@ -13,8 +13,8 @@
     },
     {
         "affiliation": "New York University",
-        "name": "Jonathan Armoza"
-    },
+        "name": "Jonathan Armoza
+            },
     {
         "affiliation": "University of Richmond",
         "name": "Taylor Arnold"
@@ -96,6 +96,10 @@
         "name": "Fabio Ciotti"
     },
     {
+        "affiliation": "Montana State University",
+        "name": "Jason A. Clark"
+    },
+    {
         "affiliation": "C2DH, University of Luxembourg",
         "name": "Frédéric Clavert"
     },
@@ -168,6 +172,10 @@
         "name": "Daniella Gáti"
     },
     {
+        "affiliation": "Bowling Green State University",
+        "name": "Radhika Gajjala"
+    },
+    {
         "affiliation": "University of South Carolina",
         "name": "Michael Gavin"
     },
@@ -234,6 +242,10 @@
     {
         "affiliation": "KNAW Meertens Instituut",
         "name": "Folgert Karsdorp"
+    },
+    {
+        "affiliation": "TEKLIA, Paris, France",
+        "name": "Christopher Kermorvant"
     },
     {
         "affiliation": "Göttingen eResearch Alliance",
@@ -546,6 +558,10 @@
     {
         "affiliation": "University of Chicago",
         "name": "Jeffrey Tharsen"
+    },
+    {
+        "affiliation": "Leipzig University",
+        "name": "Jochen Tiepmar"
     },
     {
         "affiliation": "FIZ Karlsruhe & KIT, Germany",
