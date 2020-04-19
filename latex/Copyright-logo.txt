@@ -1,0 +1,6 @@
+CEUR-WS Restricted Use Logo License
+Copyright (c) 2020 CEUR-WS.org Team
+
+1. The CEUR-WS logo is reserved for use at CEUR-WS.org. Please do not use the CEUR-WS logo on your website.
+2. The CEUR-WS logo can be used in the official template for publishing articles on CEUR-WS.
+3. We reserve the right to revoke a license for the CEUR-WS logo.

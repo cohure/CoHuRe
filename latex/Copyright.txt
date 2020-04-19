@@ -1,0 +1,2 @@
+Latex files are licensed under the LaTeX Project Public License (Copyright.lppl)
+CEUR-WS logo is licensed under the CEUR-WS Restricted Use Logo License (Copyright.logo)

@@ -1,0 +1,496 @@
+%% The first command in your LaTeX source must be the \documentclass command.
+%%
+%% Options:
+%% twocolumn : Two column layout.
+\documentclass[
+% twocolumn,
+]{ceurart}
+
+%%
+%% end of the preamble, start of the body of the document source.
+\begin{document}
+
+%%
+%% Rights management information.
+%% CC-BY is default license.
+\copyrightyear{2020}
+\copyrightclause{Copyright for this paper by its authors.\\
+  Use permitted under Creative Commons License Attribution 4.0
+  International (CC BY 4.0).}
+
+%%
+%% This command is for the conference information
+\conference{CHR 2020: Workshop on Computational Humanities Research,
+  November 18--20, 2020, Amsterdam, The Netherlands}
+
+%%
+%% The "title" command
+\title{A better way to format your document for CEUR-WS}
+
+%%
+%% The "author" command and its associated commands are used to define
+%% the authors and their affiliations.
+\author[1,2]{Dmitry S. Kulyabov}[%
+orcid=0000-0002-0877-7063,
+]
+\ead{kulyabov-ds@rudn.ru}
+\address[1]{Peoples' Friendship University of Russia (RUDN University),
+  6 Miklukho-Maklaya St, Moscow, 117198, Russian Federation}
+\address[2]{Joint Institute for Nuclear Research,
+  6 Joliot-Curie, Dubna, Moscow region, 141980, Russian Federation}
+
+\author[3]{Ilaria Tiddi}[%
+orcid=0000-0001-7116-9338,
+]
+\address[3]{Vrije Universiteit Amsterdam, De Boelelaan 1105, 1081 HV Amsterdam, The Netherlands}
+\ead{i.tiddi@vu.nl}
+\ead[url]{https://kmitd.github.io/ilaria/}
+
+\author[4]{Manfred Jeusfeld}[%
+orcid=0000-0002-9421-8566,
+]
+\address[4]{University of Skövde, Högskolevägen 1, 541 28 Skövde, Sweden}
+\ead{Manfred.Jeusfeld@acm.org}
+\ead[url]{http://conceptbase.sourceforge.net/mjf/}
+
+%%
+%% The abstract is a short summary of the work to be presented in the
+%% article.
+\begin{abstract}
+  A clear and well-documented \LaTeX{} document is presented as an
+  article formatted for publication by CEUR-WS in a conference
+  proceedings. Based on the ``ceurart'' document class, this article
+  presents and explains many of the common variations, as well as many
+  of the formatting elements an author may use in the preparation of
+  the documentation of their work.
+\end{abstract}
+
+%%
+%% Keywords. The author(s) should pick words that accurately describe
+%% the work being presented. Separate the keywords with commas.
+\begin{keywords}
+  \LaTeX{} class \sep
+  paper template \sep
+  paper formatting \sep
+  CEUR-WS
+\end{keywords}
+
+%%
+%% This command processes the author and affiliation and title
+%% information and builds the first part of the formatted document.
+\maketitle
+
+\section{Introduction}
+
+CEUR-WS's article template provides a consistent \LaTeX{} style for
+use across CEUR-WS publications, and incorporates accessibility and
+metadata-extraction functionality. This document will explain the
+major features of the document class.
+
+If you are new to publishing with CEUR-WS, this document is a valuable
+guide to the process of preparing your work for publication.
+
+The ``\verb|ceurart|'' document class can be used to prepare articles
+for any CEUR-WS publication, and for any stage of publication, from
+review to final ``camera-ready'' copy with {\itshape very} few changes
+to the source.
+
+This class depends on the following packages
+for its proper functioning:
+
+\begin{enumerate}
+\item \verb|natbib.sty| for citation processing;
+\item \verb|geometry.sty| for margin settings;
+\item \verb|graphicx.sty| for graphics inclusion;
+\item \verb|hyperref.sty| optional package if hyperlinking is required in
+  the document;
+\item \verb|fontawesome5.sty| optional package for bells and whistles.
+\end{enumerate}
+
+All the above packages are part of any
+standard \LaTeX{} installation.
+Therefore, the users need not be
+bothered about downloading any extra packages.
+
+\section{Modifications}
+
+Modifying the template --- including but not limited to: adjusting
+margins, typeface sizes, line spacing, paragraph and list definitions,
+and the use of the \verb|\vspace| command to manually adjust the
+vertical spacing between elements of your work --- is not allowed.
+
+\section{Template Styles}
+
+The primary parameter given to the ``\verb|ceurart|'' document class is
+the \textit{template style}. This parameter is enclosed in square
+brackets and is a part of the {\verb|documentclass|} command:
+\begin{verbatim}
+  \documentclass[STYLE]{ceurart}
+\end{verbatim}
+
+Now this is only one style:
+\begin{itemize}
+\item {\verb|twocolumn|}: Two column layout.
+\end{itemize}
+
+\section{Front matter}
+
+\subsection{Title Information}
+
+The titles of papers should be either all use the emphasizing
+capitalized style or they should all use the regular English (or
+native language) style. It does not make a good impression if you or
+your authors mix the styles.
+
+Use the \verb|title| command to define the title of your work. Do not
+insert line breaks in your title.
+
+\subsection{Authors and Affiliations}
+
+Each author must be defined separately for accurate metadata
+identification. Multiple authors may share one affiliation. Authors'
+names should not be abbreviated; use full first names wherever
+possible. Include authors' e-mail addresses whenever possible.
+
+\verb|\author| command have the below options: 
+
+\begin{enumerate}
+\item \verb|style:| Style of author name (chinese)
+\item \verb|prefix:| Prefix
+\item \verb|suffix:| Suffix
+\item \verb|degree:| Degree
+\item \verb|role:| Role
+\item \verb|orcid:| ORCID
+\end{enumerate}
+
+Author names can have many kinds of marks and notes:
+\begin{enumerate}
+\item affiliation mark: \verb|\author[<num>]|,
+\item email: \verb|\ead{<email>}|,
+\item url: \verb|\ead[url]{<url>}|.
+\end{enumerate}
+
+The author names and affiliations could be formatted in two ways:
+\begin{enumerate}
+\item Group the authors per affiliation.
+\item Use an explicit mark to indicate the affiliations.
+\end{enumerate}
+
+Author block example:
+\begin{verbatim}
+\author[1,2]{Author Name}[%
+    prefix=Prof.,
+    degree=D.Sc.,
+    role=Researcher,
+    orcid=0000-0000-000-0000
+]
+\ead{<email>}
+\ead[url]{<url>}
+
+\address[1]{Affiliation #1}
+\address[2]{Affiliation #2}
+\end{verbatim}
+
+\subsection{Abstract and Keywords}
+
+Abstract shall be entered in an environment that starts
+with \verb|\begin{abstract}| and ends with
+\verb|\end{abstract}|. 
+
+\begin{verbatim}
+\begin{abstract}
+  This is an abstract.
+\end{abstract}
+\end{verbatim}
+
+The key words are enclosed in a \verb|{keyword}|
+environment. Use \verb|\sep| to separate keywords.
+
+\begin{verbatim}
+\begin{keywords}
+  First keyword \sep 
+  Second keyword \sep 
+  Third keyword \sep 
+  Fourth keyword
+\end{keywords}
+\end{verbatim}
+
+At the end of front matter add \verb|\maketitle| command.
+
+\section{Sectioning Commands}
+
+Your work should use standard \LaTeX{} sectioning commands:
+\verb|section|, \verb|subsection|, \verb|subsubsection|, and
+\verb|paragraph|. They should be numbered; do not remove the numbering
+from the commands.
+
+Simulating a sectioning command by setting the first word or words of
+a paragraph in boldface or italicized text is not allowed.
+
+\section{Tables}
+
+The ``\verb|ceurart|'' document class includes the ``\verb|booktabs|''
+package --- \url{https://ctan.org/pkg/booktabs} --- for preparing
+high-quality tables.
+
+Table captions are placed \textit{above} the table.
+
+Because tables cannot be split across pages, the best placement for
+them is typically the top of the page nearest their initial cite.  To
+ensure this proper ``floating'' placement of tables, use the
+environment \verb|table| to enclose the table's contents and the
+table caption. The contents of the table itself must go in the
+\verb|tabular| environment, to be aligned properly in rows and
+columns, with the desired horizontal and vertical rules.
+
+Immediately following this sentence is the point at which
+Table~\ref{tab:freq} is included in the input file; compare the
+placement of the table here with the table in the printed output of
+this document.
+
+\begin{table}
+  \caption{Frequency of Special Characters}
+  \label{tab:freq}
+  \begin{tabular}{ccl}
+    \toprule
+    Non-English or Math&Frequency&Comments\\
+    \midrule
+    \O & 1 in 1,000& For Swedish names\\
+    $\pi$ & 1 in 5& Common in math\\
+    \$ & 4 in 5 & Used in business\\
+    $\Psi^2_1$ & 1 in 40,000& Unexplained usage\\
+  \bottomrule
+\end{tabular}
+\end{table}
+
+To set a wider table, which takes up the whole width of the page's
+live area, use the environment \verb|table*| to enclose the table's
+contents and the table caption.  As with a single-column table, this
+wide table will ``float'' to a location deemed more
+desirable. Immediately following this sentence is the point at which
+Table~\ref{tab:commands} is included in the input file; again, it is
+instructive to compare the placement of the table here with the table
+in the printed output of this document.
+
+\begin{table*}
+  \caption{Some Typical Commands}
+  \label{tab:commands}
+  \begin{tabular}{ccl}
+    \toprule
+    Command &A Number & Comments\\
+    \midrule
+    \texttt{{\char'134}author} & 100& Author \\
+    \texttt{{\char'134}table}& 300 & For tables\\
+    \texttt{{\char'134}table*}& 400& For wider tables\\
+    \bottomrule
+  \end{tabular}
+\end{table*}
+
+\section{Math Equations}
+
+You may want to display math equations in three distinct styles:
+inline, numbered or non-numbered display.  Each of the three are
+discussed in the next sections.
+
+\subsection{Inline (In-text) Equations}
+
+A formula that appears in the running text is called an inline or
+in-text formula.  It is produced by the \verb|math| environment,
+which can be invoked with the usual
+\verb|\begin| \ldots \verb|\end| construction or with
+the short form \verb|$| \ldots \verb|$|. You can use any of the symbols
+and structures, from $\alpha$ to $\omega$, available in
+\LaTeX~\cite{Lamport:LaTeX};
+this section will simply show a few
+examples of in-text equations in context. Notice how this equation:
+\begin{math}
+  \lim_{n\rightarrow \infty} \frac{1}{n} = 0,
+\end{math}
+set here in in-line math style, looks slightly different when
+set in display style.  (See next section).
+
+\subsection{Display Equations}
+
+A numbered display equation---one set off by vertical space from the
+text and centered horizontally---is produced by the \verb|equation|
+environment. An unnumbered display equation is produced by the
+\verb|displaymath| environment.
+
+Again, in either environment, you can use any of the symbols and
+structures available in \LaTeX{}; this section will just give a couple
+of examples of display equations in context.  First, consider the
+equation, shown as an inline equation above:
+\begin{equation}
+  \lim_{n\rightarrow \infty} \frac{1}{n} = 0.
+\end{equation}
+Notice how it is formatted somewhat differently in
+the \verb|displaymath|
+environment.  Now, we'll enter an unnumbered equation:
+\begin{displaymath}
+  S_{n} = \sum_{i=1}^{n} x_{i} ,
+\end{displaymath}
+and follow it with another numbered equation:
+\begin{equation}
+  \lim_{x \to 0} (1 + x)^{1/x} = e
+\end{equation}
+just to demonstrate \LaTeX's able handling of numbering.
+
+\section{Figures}
+
+The ``\verb|figure|'' environment should be used for figures. One or
+more images can be placed within a figure. If your figure contains
+third-party material, you must clearly identify it as such, as shown
+in the example below.
+\begin{figure}
+  \centering
+  \includegraphics[width=\linewidth]{sample-franklin}
+  \caption{1907 Franklin Model D roadster. Photograph by Harris \&
+    Ewing, Inc. [Public domain], via Wikimedia
+    Commons. (\url{https://goo.gl/VLCRBB}).}
+\end{figure}
+
+Your figures should contain a caption which describes the figure to
+the reader. Figure captions go below the figure. Your figures should
+also include a description suitable for screen readers, to
+assist the visually-challenged to better understand your work.
+
+Figure captions are placed below the figure.
+
+\section{Citations and Bibliographies}
+
+The use of Bib\TeX{} for the preparation and formatting of one's
+references is strongly recommended. Authors' names should be complete
+--- use full first names (``Donald E. Knuth'') not initials
+(``D. E. Knuth'') --- and the salient identifying features of a
+reference should be included: title, year, volume, number, pages,
+article DOI, etc.
+
+The bibliography is included in your source document with these two
+commands, placed just before the \verb|\end{document}| command:
+\begin{verbatim}
+\bibliography{bibfile}
+\end{verbatim}
+where ``\verb|bibfile|'' is the name, without the ``\verb|.bib|''
+suffix, of the Bib\TeX{} file.
+
+
+\subsection{Some examples}
+
+A paginated journal article \cite{Abril07}, an enumerated journal
+article \cite{Cohen07}, a reference to an entire issue
+\cite{JCohen96}, a monograph (whole book) \cite{Kosiur01}, a
+monograph/whole book in a series (see 2a in spec. document)
+\cite{Harel79}, a divisible-book such as an anthology or compilation
+\cite{Editor00} followed by the same example, however we only output
+the series if the volume number is given \cite{Editor00a} (so series
+should not be present since it has no vol. no.), a chapter in a
+divisible book \cite{Spector90}, a chapter in a divisible book in a
+series \cite{Douglass98}, a multi-volume work as book \cite{Knuth97},
+an article in a proceedings (of a conference, symposium, workshop for
+example) (paginated proceedings article) \cite{Andler79}, a
+proceedings article with all possible elements \cite{Smith10}, an
+example of an enumerated proceedings article \cite{VanGundy07}, an
+informally published work \cite{Harel78}, a doctoral dissertation
+\cite{Clarkson85}, a master's thesis: \cite{anisi03}, an online
+document / world wide web resource \cite{Thornburg01, Ablamowicz07,
+  Poker06}, a video game (Case 1) \cite{Obama08} and (Case 2)
+\cite{Novak03} and \cite{Lee05} and (Case 3) a patent
+\cite{JoeScientist001}, work accepted for publication \cite{rous08},
+prolific author \cite{SaeediMEJ10} and \cite{SaeediJETC10}. Other
+cites might contain `duplicate' DOI and URLs (some SIAM articles)
+\cite{Kirschmer:2010:AEI:1958016.1958018}. Multi-volume works as books
+\cite{MR781536} and \cite{MR781537}. A couple of citations with DOIs:
+\cite{2004:ITE:1009386.1010128,Kirschmer:2010:AEI:1958016.1958018}. Online
+citations: \cite{TUGInstmem, Thornburg01, R, UMassCitations}.
+
+\section{Acknowledgments}
+
+Identification of funding sources and other support, and thanks to
+individuals and groups that assisted in the research and the
+preparation of the work should be included in an acknowledgment
+section, which is placed just before the reference section in your
+document.
+
+This section has a special environment:
+\begin{verbatim}
+\begin{acknowledgments}
+  These are different acknowledgments.
+\end{acknowledgments}
+\end{verbatim}
+so that the information contained therein can be more easily collected
+during the article metadata extraction phase, and to ensure
+consistency in the spelling of the section heading.
+
+Authors should not prepare this section as a numbered or unnumbered
+{\verb|\section|}; please use the ``{\verb|acknowledgments|}'' environment.
+
+\section{Appendices}
+
+If your work needs an appendix, add it before the
+``\verb|\end{document}|'' command at the conclusion of your source
+document.
+
+Start the appendix with the ``\verb|appendix|'' command:
+\begin{verbatim}
+\appendix
+\end{verbatim}
+and note that in the appendix, sections are lettered, not
+numbered. This document has two appendices, demonstrating the section
+and subsection identification method.
+
+%%
+%% The acknowledgments section is defined using the "acks" environment
+%% (and NOT an unnumbered section). This ensures the proper
+%% identification of the section in the article metadata, and the
+%% consistent spelling of the heading.
+\begin{acknowledgments}
+  Thanks to the developers of ACM consolidated LaTeX styles
+  \url{https://github.com/borisveytsman/acmart} and to the developers
+  of Elsevier updated \LaTeX{} templates
+  \url{https://www.ctan.org/tex-archive/macros/latex/contrib/els-cas-templates}.
+  
+  
+\end{acknowledgments}
+
+%%
+%% Define the bibliography file to be used
+\bibliography{bibliography}
+
+%%
+%% If your work has an appendix, this is the place to put it.
+\appendix
+
+\section{Research Methods}
+
+\subsection{Part One}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+malesuada, quam in pulvinar varius, metus nunc fermentum urna, id
+sollicitudin purus odio sit amet enim. Aliquam ullamcorper eu ipsum
+vel mollis. Curabitur quis dictum nisl. Phasellus vel semper risus, et
+lacinia dolor. Integer ultricies commodo sem nec semper.
+
+\subsection{Part Two}
+
+Etiam commodo feugiat nisl pulvinar pellentesque. Etiam auctor sodales
+ligula, non varius nibh pulvinar semper. Suspendisse nec lectus non
+ipsum convallis congue hendrerit vitae sapien. Donec at laoreet
+eros. Vivamus non purus placerat, scelerisque diam eu, cursus
+ante. Etiam aliquam tortor auctor efficitur mattis.
+
+\section{Online Resources}
+
+Nam id fermentum dui. Suspendisse sagittis tortor a nulla mollis, in
+pulvinar ex pretium. Sed interdum orci quis metus euismod, et sagittis
+enim maximus. Vestibulum gravida massa ut felis suscipit
+congue. Quisque mattis elit a risus ultrices commodo venenatis eget
+dui. Etiam sagittis eleifend elementum.
+
+Nam interdum magna at lectus dignissim, ac dignissim lorem
+rhoncus. Maecenas eu arcu ac neque placerat aliquam. Nunc pulvinar
+massa et mattis lacinia.
+
+\end{document}
+
+%%
+%% End of file
