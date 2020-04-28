@@ -27,7 +27,8 @@ Computational Humanities Research (CHR) will serve as a stepping stone to this j
 - **November 18-20, 2020**: Online Workshop.
 
 ### Venue
-This workshop will be an online event. More details will follow, *Organized by the [DHLab](http://dhlab.nl) of the KNAW Humanities Cluster*
+This workshop will be an online event. More details will follow, *Organized by the
+[DHLab](http://dhlab.nl) of the KNAW Humanities Cluster* 
 
 ### Illustrative Topics and Questions
 - Statistical methods for Humanities data analysis;
@@ -77,11 +78,12 @@ We accept three types of submissions:
   pieces. Accepted papers are expected to be presented at the workshop and will be
   published in the proceedings of the workshop.
 
-- **Tutorials**. We also accept proposals for *online* tutorials. These tutorials are meant to
-  highlight specific computational approaches and show how they can be implemented across
-  different disciplines in the humanities. The maximum length is 4 pages, plus up to 1 page of references. Tutorial proposal should at minimum include description of
-  method(s), goals, relevance to CHR, as well as information on the prerequisite
-  knowledge, and logistical requirements. Tutorial proposals will not be
+- **Tutorials**. We also accept proposals for *online* tutorials. These tutorials are
+  meant to highlight specific computational approaches and show how they can be
+  implemented across different disciplines in the humanities. The maximum length is 4
+  pages, plus up to 1 page of references. Tutorial proposal should at minimum include
+  description of method(s), goals, relevance to CHR, as well as information on the
+  prerequisite knowledge, and logistical requirements. Tutorial proposals will not be
   published in the proceedings.
 
 All papers and tutorial proposals will undergo double-blind peer-review.
@@ -90,13 +92,17 @@ All papers and tutorial proposals will undergo double-blind peer-review.
 ### Submission Formats
 Papers to CHR2020 may be submitted in either of the following two formats:
 
-1. **LaTeX Papers** should be prepared using the provided template (details following soon);
+1. **LaTeX Papers** should be prepared using the [CHR2020 latex
+   template](https://github.com/cohure/CoHuRe/raw/master/chr2020_latex_template.zip); 
 2. **doc(x) papers** may be submitted only for review.
 
 All final, accepted papers must be submitted in LaTeX using the provided template.
 Final papers not submitted in this format will **not** be accepted.
 
-Papers should be submitted to the CHR2020 workshop Easychair website: https://easychair.org/conferences/?conf=chr2020 (**Note: not open yet**).
+Papers should be submitted to the CHR2020 workshop Easychair website:
+https://easychair.org/conferences/?conf=chr2020 (**Note: not open yet**).
+
+Accepted papers will be published in the [CEUR workshop proceedings](http://ceur-ws.org/).
 
 
 ### Program Committee
