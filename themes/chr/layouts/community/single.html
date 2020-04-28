@@ -1,31 +1,4 @@
 {{ define "main" }}
-<script>
-    var parties = {{ "js/interested-parties.json" | relURL }};
-    $(document).ready(function () {
-        $.getJSON(parties, function (data) {
-            var parties = [];
-            data.forEach(function (entry) {
-                console.log(entry);
-                parties.push("<p>" + entry["name"] + " - " + entry["affiliation"] + "</p>")
-            });
-            var size = parties.length / 3;
-            $("<div/>", {
-                "class": "interested col l4 s12",
-                html: parties.slice(0, size + 1).join("")
-            }).appendTo("#parties");
-
-            $("<div/>", {
-                "class": "interested col l4 s12",
-                html: parties.slice(size + 1, size * 2).join("")
-            }).appendTo("#parties");            
-         
-            $("<div/>", {
-                "class": "interested col l4 s12",
-                html: parties.slice(size * 2, parties.length).join("")
-            }).appendTo("#parties");
-        })
-    });
-</script>
 <div class="section no-pad-bot" id="index-banner">
     <div class="container">
         <h2 class="header center">{{.Title}}</h2>
@@ -35,8 +8,5 @@
     <div class="section content">
         {{.Content}}
     </div>
-    <hr>
-    <h3 class="center">Interested Parties</h3>
-    <div id="parties" class="row content"></div>
 </div>
 {{ end }}

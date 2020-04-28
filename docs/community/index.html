@@ -58,33 +58,6 @@
 </header><div class="bg--white">
                 <main>
                 <div class="section no-pad-bot">
-<script>
-    var parties = "/js/interested-parties.json";
-    $(document).ready(function () {
-        $.getJSON(parties, function (data) {
-            var parties = [];
-            data.forEach(function (entry) {
-                console.log(entry);
-                parties.push("<p>" + entry["name"] + " - " + entry["affiliation"] + "</p>")
-            });
-            var size = parties.length / 3;
-            $("<div/>", {
-                "class": "interested col l4 s12",
-                html: parties.slice(0, size + 1).join("")
-            }).appendTo("#parties");
-
-            $("<div/>", {
-                "class": "interested col l4 s12",
-                html: parties.slice(size + 1, size * 2).join("")
-            }).appendTo("#parties");            
-         
-            $("<div/>", {
-                "class": "interested col l4 s12",
-                html: parties.slice(size * 2, parties.length).join("")
-            }).appendTo("#parties");
-        })
-    });
-</script>
 <div class="section no-pad-bot" id="index-banner">
     <div class="container">
         <h2 class="header center">Join the Community</h2>
@@ -92,13 +65,14 @@
 </div>
 <div class="container">
     <div class="section content">
-        <p>We cordially invite you and other interested parties to join the conversation about future steps! Add your name to the GitHub <a href="https://github.com/cohure/CoHuRe/issues/1">issue</a> or get in <a href="../contact">contact</a>.</p>
-<p>So who&rsquo;s in?</p>
+        <p>We cordially invite you and other interested parties to join the <a href="https://discourse.computational-humanities-research.org/">Computational Humanities
+Research forum</a>! The forum
+serves as an asynchronous platform to discuss all ideas and questions related to
+computational humanities research. These can be in-depth discussions about fundamental
+topics and questions of the discipline, or very practical ones, for example about how best
+to tackle a certain technical (coding) problem. And everything in between. Come join!</p>
 
     </div>
-    <hr>
-    <h3 class="center">Interested Parties</h3>
-    <div id="parties" class="row content"></div>
 </div>
 
                 </div>
@@ -107,7 +81,7 @@
   <div class="container">
     <div class="row center">
       <div class="col s6">
-        <a href="/community">Join the community!</a>
+        <a href="https://discourse.computational-humanities-research.org/">Join the community!</a>
       </div>
       <div class="col s6">
         <a href="https://twitter.com/CompHumResearch">Follow us on Twitter!</a>
