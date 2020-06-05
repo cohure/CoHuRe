@@ -25,4 +25,7 @@ publishDir = "docs"
     identifier = "community"
     name = "Community"
     url = "/community/"
-    weight = -1000    
+    weight = -1000
+
+[markup.goldmark.renderer]
+unsafe = true

@@ -18,7 +18,16 @@ publish their computational work that does not lose sight of questions relevant 
 humanities. As such, we aim to fill this niche by creating a community for Computational
 Humanities Research. Ultimately, the goal of the community is to set up a
 research-oriented, open-access computational humanities journal. This workshop on
-Computational Humanities Research (CHR) will serve as a stepping stone to this journal. 
+Computational Humanities Research (CHR) will serve as a stepping stone to this journal.
+
+### Keynote Speakers
+
+<div class="imgitem">
+  <img src="/images/anne_kandler.jpg"/>
+  <span class="caption">Anne Kandler, Department of Human Behavior, Ecology and Culture of the Max Planck
+  Institute for Evolutionary Anthropology</span>
+</div>
+
 
 ### Important dates
 - **July 20, 2020**: Submission deadline;
@@ -100,7 +109,7 @@ All final, accepted papers must be submitted in LaTeX using the provided templat
 Final papers not submitted in this format will **not** be accepted.
 
 Papers should be submitted to the CHR2020 workshop Easychair website:
-https://easychair.org/conferences/?conf=chr2020 (**Note: not open yet**).
+https://easychair.org/conferences/?conf=chr2020
 
 Accepted papers will be published in the [CEUR workshop proceedings](http://ceur-ws.org/).
 
