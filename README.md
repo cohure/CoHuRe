@@ -1,28 +1,11 @@
-## Computational Humanities Research
+# Computational Humanities Research
 
-Despite the growing use of computational methods in humanities research by an
-increasingly wide variety of scholars, many interdisciplinary scholars
-(including ourselves) still feel that there is no suitable research-oriented
-venue to present and/or publish robust, computational work that does not lose
-sight of questions relevant to the humanities. As such, we aim to fill this
-niche by creating a community for computational humanities researchers.
+The Computational Humanities Research community is an international and interdisciplinary society that supports researchers with an interest in computational approaches to the humanities. Ultimately, the goal of the community is to set up a research-oriented, open-access computational humanities journal. The [workshop on Computational Humanities Research](https://www.computational-humanities-research.org/cfp/) (CHR) will be an online event.
 
-Ultimately, the goal of the computational humanities community is to set up a
-research-oriented computational humanities journal and conference. In the
-coming months, we will announce a workshop that is open to (short and
-long) full paper submissions. This workshop will serve as a stepping stone to a
-new, open-access journal of Computational Humanities Research.
+## Join the community
 
-We cordially invite you and other interested parties to join the conversation
-about future steps! Add your name to
-the <a href="https://github.com/cohure/website/issues/1#issue-469270736">GitHub issue</a>
-or get in <a href="mailto:folgert.karsdorp@meertens.knaw.nl">contact</a>.
+We cordially invite you and other interested parties to join the [Computational Humanities Research forum](https://discourse.computational-humanities-research.org/)! The forum serves as an asynchronous platform to discuss all ideas and questions related to computational humanities research. These can be in-depth discussions about fundamental topics and questions of the discipline, or very practical ones, for example about how best to tackle a certain technical (coding) problem. And everything in between. Come join!
 
-So who's in?
-
-### Code of Conduct
-   We are currently working out the details concerning a suitable Code of Conduct for this community, which in any case will be dedicated to providing a welcoming and supportive environment for all people,         regardless of background and identity.
-
-### Contact
+## Contact
 For questions, ideas, support, comments, etc. contact Folgert Karsdorp
 (<folgert.karsdorp@meertens.knaw.nl>) or Melvin Wevers (<melvin.wevers@dh.huc.knaw.nl>).
