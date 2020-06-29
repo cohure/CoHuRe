@@ -42,7 +42,7 @@ This workshop will be an online event. More details will follow, *Organized by t
 ### Illustrative Topics and Questions
 - Statistical methods for Humanities data analysis;
 - Hypothesis-driven Humanities research;
-- Interpretation of results from statistical, empirical, and data-driven methods
+- Interpretation of results from statistical, empirical, and data-driven methods;
 - Development of empirical methods; 
 - Translation and transfer of methods from disciplines, such as economics, biology,
   physics, psychology, and complexity science;
