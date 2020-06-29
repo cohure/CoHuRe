@@ -69,8 +69,10 @@ The aim of the workshop is threefold:
   make all publications, code, and data freely available, thus encouraging research
   transparency and replication of studies.
 
-- **Dissemination**: Our goal is to publish (a selection) of papers from the workshop in a
-  special journal issue, which is yet to be determined.
+- **Dissemination**: CHR2020 proceedings will be published in the [CEUR workshop
+  proceedings](http://ceur-ws.org/). Authors of selected papers from the workshop will be
+  invited to submit to a special issue of the [Journal of Open Humanities
+  Data](https://openhumanitiesdata.metajnl.com/).  
 
 
 ### Types of Submission
