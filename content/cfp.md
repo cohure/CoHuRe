@@ -36,8 +36,8 @@ Computational Humanities Research (CHR) will serve as a stepping stone to this j
 - **November 18-20, 2020**: Online Workshop.
 
 ### Venue
-This workshop will be an online event. More details will follow, *Organized by the
-[DHLab](http://dhlab.nl) of the KNAW Humanities Cluster* 
+This workshop will be an online event. More details will follow soon. The workshop is
+organized by the [DHLab](http://dhlab.nl) of the KNAW Humanities Cluster.
 
 ### Illustrative Topics and Questions
 - Statistical methods for Humanities data analysis;
