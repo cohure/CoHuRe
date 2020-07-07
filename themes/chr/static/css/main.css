@@ -83,25 +83,31 @@ nav .brand-logo {
     line-height: 70px;
 }
 
+div.imgitem {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
 img {
-    padding: .8rem;
-    margin: .4rem;
-    max-width: 30%;
-    height:auto;    
+    padding: .4rem;
+    margin: .4rem .4rem .4rem 0;
+    flex: 30%;
+    height: 100%;    
     background-color: #2afadf;
     background-image: linear-gradient(135deg, #2afadf 10%, #4c83ff 100%);
 }
 
-div.imgitem {
-    vertical-align: top;
-    display: inline-block;
-    text-align: center;
-    width: 100%;
+.speaker {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 120%;
 }
 
 .caption {
-    margin: .4rem;
-    display: block;
+    flex: 80%;    
+    margin-left: .8rem;
+    margin-top: .2rem;    
+    text-align: left;    
 }
 
 .brand-logo {
