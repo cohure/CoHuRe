@@ -116,7 +116,10 @@ All papers and tutorial proposals will undergo double-blind peer-review.
 Papers to CHR2020 may be submitted in either of the following two formats:
 
 1. **LaTeX Papers** should be prepared using the [CHR2020 latex
-   template](https://github.com/cohure/CoHuRe/raw/master/chr2020_latex_template.zip); 
+   template](https://github.com/cohure/CoHuRe/raw/master/chr2020_latex_template.zip). See
+   this
+   [link](https://discourse.computational-humanities-research.org/t/chr-latex-instructions/230)
+   on the forum for instructions to get you started;
 2. **doc(x) papers** may be submitted only for review.
 
 All final, accepted papers must be submitted in LaTeX using the provided template.
