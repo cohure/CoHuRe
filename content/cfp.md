@@ -91,7 +91,7 @@ The aim of the workshop is threefold:
 We accept three types of submissions:
 
 - **Long Papers**. Long papers report on completed, original and unpublished results. The
-  maximum length is 16 pages, plus up to 2 pages of references. We welcome the use of
+  maximum length is 16 pages, plus up to 4 pages of references. We welcome the use of
   appendices or other supplementary information. Accepted papers are expected to be
   presented at the workshop and will be published in the proceedings of the workshop.
 
