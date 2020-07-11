@@ -49,7 +49,7 @@ This workshop will be an online event with synchronous Q&A sessions and asynchro
 discussions on our forum ([please
 register](https://discourse.computational-humanities-research.org/)).  More details will
 follow soon. The workshop is organized by the [DHLab](http://dhlab.nl) of the KNAW
-Humanities Cluster.
+Humanities Cluster and [The Alan Turing Institute](https://www.turing.ac.uk/).
 
 ### Illustrative Topics and Questions
 - Statistical methods for Humanities data analysis;
