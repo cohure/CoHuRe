@@ -39,7 +39,7 @@ Computational Humanities Research (CHR) will serve as a stepping stone to this j
 
 
 ### Important dates
-- **July 20, 2020**: Submission deadline;
+- **July 27, 2020**: Submission deadline;
 - **August 24, 2020**: Notification of acceptance;
 - **September 18, 2020**: Camera-ready papers due;
 - **November 18-20, 2020**: Online Workshop.
