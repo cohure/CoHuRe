@@ -1,6 +1,6 @@
 ---
 title: "CHR2020 Online"
-description: "Online Workshop on Computational Humanities Research (18-20 November 2020)"
+description: "Online Workshop on Computational Humanities Research (18-20 November 2020); Submission deadline extended to July 27"
 date: 2019-12-15T11:11:58+01:00
 ---
 
