@@ -1,8 +1,10 @@
 ---
 title: "CHR2020 Online"
-description: "Online Workshop on Computational Humanities Research (18-20 November 2020); Submission deadline extended to July 27"
+description: "Online Workshop on Computational Humanities Research (18-20 November 2020);"
 date: 2019-12-15T11:11:58+01:00
 ---
+
+<h3 class="header center">Submission deadline extended to July 27</h3>
 
 ### Description
 In the humanities and related social sciences, the use of computational, statistical, and
