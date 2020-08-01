@@ -140,11 +140,13 @@ Accepted papers will be published in the [CEUR workshop proceedings](http://ceur
 - **Manuel Burghardt** -- Universität Leipzig, Germany
 - **Giovanni Colavizza** -- University of Amsterdam, The Netherlands
 - **Maud Ehrmann** -- EPFL, Switzerland
+- **Lauren Fonteyn** -- Leiden University, The Netherlands
 - **Pieter Francois** -- University of Oxford, UK
 - **Leah Henrickson** -- Loughborough University, UK
 - **Mike Kestemont** -- University of Antwerp, Belgium
 - **Lauren Klein** -- Emory University, U.S.A.
 - **Cynthia Liem** -- Delft University of Technology, The Netherlands
+- **Enrique Manjavacas** -- University of Antwerp, Belgium
 - **Barbara McGillivray (Chair)** -- University of Cambridge & The Alan Turing Institute, UK
 - **George Mikros** -- National and Kapodistrian University of Athens, Greece
 - **Kristoffer Nielbo** -- Aarhus University, Denmark
