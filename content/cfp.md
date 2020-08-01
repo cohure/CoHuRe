@@ -4,7 +4,7 @@ description: "Online Workshop on Computational Humanities Research (18-20 Novemb
 date: 2019-12-15T11:11:58+01:00
 ---
 
-<h3 class="header center">Submission deadline extended to July 27</h3>
+<h3 class="header center">Submissions closed</h3>
 
 ### Description
 In the humanities and related social sciences, the use of computational, statistical, and
