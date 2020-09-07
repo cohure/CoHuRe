@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Accepted Papers</title>
+      <link>http://www.computational-humanities-research/papers/</link>
+      <pubDate>Sat, 01 Aug 2020 08:55:52 +0200</pubDate>
+      
+      <guid>http://www.computational-humanities-research/papers/</guid>
+      <description> Author A, Author B: &amp;ldquo;Some interesting title&amp;quot;, [BibTeX, abstract, paper] Author A, Author B: &amp;ldquo;Another interesting title&amp;quot;, [BibTeX, abstract, paper]  </description>
+    </item>
+    
+    <item>
       <title>Advisory Board</title>
       <link>http://www.computational-humanities-research/advisory-board/</link>
       <pubDate>Mon, 16 Dec 2019 21:22:17 +0100</pubDate>
