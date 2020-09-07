@@ -127,8 +127,10 @@ Papers to CHR2020 may be submitted in either of the following two formats:
 All final, accepted papers must be submitted in LaTeX using the provided template.
 Final papers not submitted in this format will **not** be accepted.
 
-Papers should be submitted to the CHR2020 workshop Easychair website:
-https://easychair.org/conferences/?conf=chr2020
+**Revised, camera-ready papers should be uploaded to Dropbox. Please upload a PDF, the LaTeX
+source files as well as your cover letter using the following link: http://bit.ly/CHR_submission
+Please mention your paper id in the file name.** If you have any questions concerning the
+submission, please let us know.  
 
 Accepted papers will be published in the [CEUR workshop proceedings](http://ceur-ws.org/).
 
