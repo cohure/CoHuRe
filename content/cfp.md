@@ -4,7 +4,7 @@ description: "Online Workshop on Computational Humanities Research (18-20 Novemb
 date: 2019-12-15T11:11:58+01:00
 ---
 
-<h3 class="header center">Submissions closed</h3>
+<h3 class="header center"><a href="https://www.eventbrite.nl/e/chr2020-computational-humanities-workshop-tickets-112189028404">Register</a></h3>
 
 ### Description
 In the humanities and related social sciences, the use of computational, statistical, and
@@ -45,6 +45,11 @@ Computational Humanities Research (CHR) will serve as a stepping stone to this j
 - ~~**August 24, 2020**: Notification of acceptance~~;
 - **September 18, 2020**: Camera-ready papers due;
 - **November 18-20, 2020**: Online Workshop.
+
+### Registration
+Sign up
+[here](https://www.eventbrite.nl/e/chr2020-computational-humanities-workshop-tickets-112189028404)
+for the workshop! 
 
 ### Venue
 This workshop will be an online event with synchronous Q&A sessions and asynchronous
