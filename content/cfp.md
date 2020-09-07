@@ -147,6 +147,7 @@ Accepted papers will be published in the [CEUR workshop proceedings](http://ceur
 - **Manuel Burghardt** -- Universität Leipzig, Germany
 - **Giovanni Colavizza** -- University of Amsterdam, The Netherlands
 - **Maud Ehrmann** -- EPFL, Switzerland
+- **Marieke van Erp** -- KNAW Humanities Cluster, The Netherlands
 - **Lauren Fonteyn** -- Leiden University, The Netherlands
 - **Pieter Francois** -- University of Oxford, UK
 - **Leah Henrickson** -- Loughborough University, UK
@@ -168,4 +169,4 @@ Accepted papers will be published in the [CEUR workshop proceedings](http://ceur
 
 
 ### Organizers
-Marieke van Erp, Folgert Karsdorp, Adina Nerghes, Melvin Wevers
+Barbara McGillivray, Folgert Karsdorp, Adina Nerghes, Melvin Wevers
