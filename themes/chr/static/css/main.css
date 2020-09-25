@@ -233,6 +233,9 @@ h4 {
 .abstract-wrapper {
     margin-top: 1rem;
     border-left-width: 5px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-top-width: 0px;
     padding-left: 1rem;
   border-image: 
     linear-gradient(
