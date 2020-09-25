@@ -1,0 +1,68 @@
+{{ define "main" }}
+<script>
+  function showAbstract(id) {
+      console.log(id);
+      element = document.getElementById(id + "abstract");
+      if (element.style.display === "none") {
+          $(element).slideDown("fast");
+          // element.style.display = "block";
+      } else {
+          $(element).slideUp("fast");
+      }
+  }
+</script>
+
+<div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+        <h2 class="header center">{{.Title}}</h2>
+    </div>
+</div>
+<div class="container">
+  <div class="section content">
+
+    <div class="searchpapers col s12">
+      <div class="input-field col s6">
+        <i class="material-icons-outlined prefix">search</i>
+        <input type="text" class="bibtex_search" id="searchbar">
+        <label for="searchbar">Search...</label>
+      </div>
+    </div>
+      
+    <div class="bibtex_structure">
+      <div class='sort author' extra="ASC string">
+        <div class="templates"></div>
+      </div>
+    </div>
+
+    <div class="bibtex_template" style="display: none;">
+      <div class="paper">
+        <span class="title"></span>.
+        </br>
+        <span class="author authors"></span>.</br>
+        <div class="icons">
+          <a class="bibtexVar waves-effect waves-light btn-flat" id="bib+BIBTEXKEY+" extra="BIBTEXKEY" onclick="javascript:showAbstract(this.id);">
+            <i class="material-icons-outlined left">text_snippet</i>abstract
+          </a>
+          <span class="if url">
+            <a class="url waves-effect waves-light btn-flat"><i class="material-icons-outlined left">picture_as_pdf</i>pdf</a>
+          </span>
+          <span class="if note">
+            <a class="note waves-effect waves-light btn-flat" target="_blank"><i class="material-icons-outlined left">code</i>code</a>
+          </span>
+        </div>
+        <span class="if abstract">
+          <div class="abstract-wrapper">
+            <div id="bib+BIBTEXKEY+abstract" class="bibtexVar" extra="BIBTEXKEY"
+                 style="display: none;">
+              <span class="abstract"></span>
+            </div>
+          </div>
+        </span>
+      </div>
+    </div>
+
+    <div id="bibtex_display"></div>
+    
+  </div>
+</div>
+{{ end }}

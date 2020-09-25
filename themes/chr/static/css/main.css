@@ -181,3 +181,68 @@ h4 {
         padding: .4rem;
     }
 }
+
+.title {
+    font-size: 120%;
+}
+
+.paper {
+    margin-bottom: 1rem;
+}
+
+.authors {
+    font-style: italic;
+}
+
+#searchbar {
+    /* border-bottom-color: transparent; */
+    font-family: "Fira Code", Monaco, Menlo, Consolas, monospace;    
+}
+
+.searchpapers {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* label color */
+.input-field label {
+    color: #909090;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+    color: #4c83ff !important;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #4c83ff !important;
+    box-shadow: 0 1px 0 0 #4c83ff !important;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+    color: #4c83ff;
+}
+
+.icons {
+    margin-top: .4rem;
+}
+
+.material-icons-outlined:hover {
+    cursor: pointer;
+}
+
+.abstract-wrapper {
+    margin-top: 1rem;
+    border-left-width: 5px;
+    padding-left: 1rem;
+  border-image: 
+    linear-gradient(
+      to bottom, 
+      #2afadf 10%, #4c83ff 100%
+    ) 1 100%;
+    border-left-style: solid;
+}
+
+
+.material-icons-outlined{
+    vertical-align: top;
+}
