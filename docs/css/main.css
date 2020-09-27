@@ -92,7 +92,7 @@ nav .brand-logo {
     line-height: 70px;
 }
 
-div.imgitem {
+.imgitem {
     display: flex;
     margin-bottom: 1rem;
 }
@@ -100,8 +100,9 @@ div.imgitem {
 img {
     padding: .4rem;
     margin: .4rem .4rem .4rem 0;
-    flex: 30%;
-    height: 100%;    
+    /* flex: 30%; */
+    align-self: center;
+    width: 30%;
     background-color: #2afadf;
     background-image: linear-gradient(135deg, #2afadf 10%, #4c83ff 100%);
 }
