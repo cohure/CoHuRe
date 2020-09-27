@@ -17,7 +17,7 @@ body {
     background-color: #fff;
 }
 
-nav ul a, nav .brand-logo, nav .material-icons, footer a, footer p {
+nav ul a, nav .brand-logo, nav .material-icons, footer a, footer p, .title-a {
     color: #383d43;
 }
 
@@ -39,10 +39,19 @@ main {
     flex: 1 1 auto;
 }
 
-a, .url {
+a {
     transition: color .3s ease;
     text-decoration: none;
     color: #4c83ff;
+}
+
+.title-a {
+    text-decoration: none;
+    background-image: linear-gradient(transparent, transparent),linear-gradient(transparent, transparent),linear-gradient(to right, #2afadf,  #4c83ff);
+    background-repeat: no-repeat;
+    background-position: 120%, 122%, 0 100%;
+    background-size: 100% 1px;
+
 }
 
 a:hover {
@@ -118,7 +127,7 @@ img {
 
 @media screen and (min-width:40em) {
     html {
-        font-size: 17px;
+        font-size: 15px;
     }
     .page-border {
         padding: 2rem
@@ -167,7 +176,10 @@ h4 {
 
 @media screen and (max-width: 767px) {
     html {
-        font-size: 15px;
+        font-size: 12px;
+    }
+    .title {
+        font-size: 110% !important;
     }
     h1 {
         font-size: 2rem;
@@ -180,6 +192,11 @@ h4 {
     img {
         padding: .4rem;
     }
+
+    .circle {
+        font-size: 12px !important;
+}
+
 }
 
 .title {
@@ -223,16 +240,23 @@ h4 {
 }
 
 .icons {
-    margin-top: .4rem;
+    /* margin-top: .4rem; */
 }
 
 .material-icons-outlined:hover {
     cursor: pointer;
 }
 
+.paper {
+    font-size: 15px;
+}
+
 .abstract-wrapper {
     margin-top: 1rem;
     border-left-width: 5px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-top-width: 0px;
     padding-left: 1rem;
   border-image: 
     linear-gradient(
@@ -244,5 +268,24 @@ h4 {
 
 
 .material-icons-outlined{
-    vertical-align: top;
+    /* vertical-align: top; */
+}
+
+.collection-item {
+    font-size: 80%;
+}
+
+.secondary-content {
+    text-transform: uppercase;
+}
+
+.collection {
+    border: 0px;
+}
+
+.circle {
+    border-radius: 10%;
+    background-color: #fff !important;
+    color: #D3D3D3 !important;
+    font-size: 30px !important;
 }

@@ -26,14 +26,14 @@ Computational Humanities Research (CHR) will serve as a stepping stone to this j
 
 <div class="keynotes">
   <div class="imgitem">
-    <img src="/images/anne_kandler.jpg"/>
+    <img class="repsonsive-img" src="/images/anne_kandler.jpg"/>
     <span class="caption"><span class="speaker">Anne Kandler</span></br> Department of
   Human Behavior, Ecology and Culture of the Max Planck Institute for Evolutionary
   Anthropology</span> 
   </div>
 
   <div class="imgitem">
-    <img src="/images/dong_nguyen.jpg"/>
+    <img class="repsonsive-img" src="/images/dong_nguyen.jpg"/>
     <span class="caption"><span class="speaker">Dong Nguyen</span></br> Department of
     Information and Computing Sciences, Utrecht University</span> 
   </div>
