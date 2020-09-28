@@ -11,7 +11,7 @@ publishDir = "docs"
 
   [[menu.main]]
     identifier = "cfp"
-    name = "Call for Papers"
+    name = "Workshop"
     url = "/cfp/"
     weight = -1100
 
