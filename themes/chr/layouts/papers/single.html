@@ -1,5 +1,12 @@
 {{ define "main" }}
 
+<script>
+  function activate_tooltip() {
+      console.log("activating!");
+       $(".tooltipped").tooltip();
+  };
+</script>
+
 <div class="section no-pad-bot" id="index-banner">
     <div class="container">
         <h2 class="header center">{{.Title}}</h2>
@@ -28,7 +35,7 @@
     <div class="bibtex_template" style="display: none;">
       <div class="hide-on-small-only">
         <li class="collection-item avatar">
-          <a class="url btn-flat disabled circle">
+          <a class="url btn-flat circle tooltipped" data-position="bottom" data-tooltip="A link will be provided soon">
             <i class="material-icons-outlined">picture_as_pdf</i>
           </a>
           <div class="row">
@@ -62,7 +69,7 @@
     </div>
     
     <ul class="collection">
-      <div class="bibtex_display"></div>
+      <div class="bibtex_display" callback="activate_tooltip(bibtex_display);"></div>
     </ul>
     
   </div>
