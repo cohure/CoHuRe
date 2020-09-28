@@ -3,7 +3,7 @@ title: "CHR2020 Online"
 description: "Online Workshop on Computational Humanities Research (18-20 November 2020);"
 date: 2019-12-15T11:11:58+01:00
 ---
-
+<h3 class="header center"><a href="/papers">Accepted Papers</a></h3>
 <h3 class="header center"><a href="https://www.eventbrite.nl/e/chr2020-computational-humanities-workshop-tickets-112189028404">Register</a></h3>
 
 ### Description

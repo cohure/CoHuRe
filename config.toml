@@ -16,6 +16,12 @@ publishDir = "docs"
     weight = -1100
 
   [[menu.main]]
+   identifier = "papers"
+   name = "Acccepted papers"
+   url = "/papers/"
+   weight = -1200
+
+  [[menu.main]]
     identifier = "contact"
     name = "Contact"
     url = "/contact/"
