@@ -4,7 +4,11 @@ description: "Online Workshop on Computational Humanities Research (18-20 Novemb
 date: 2019-12-15T11:11:58+01:00
 ---
 <h3 class="header center"><a href="/papers">Accepted Papers</a></h3>
-<h3 class="header center"><a href="https://www.eventbrite.nl/e/chr2020-computational-humanities-workshop-tickets-112189028404">Register</a></h3>
+<h3 class="header center"><a
+href="https://www.eventbrite.nl/e/chr2020-computational-humanities-workshop-tickets-112189028404">Register</a></h3>
+<h3 class="header center"><a
+href="https://discourse.computational-humanities-research.org/t/chr2020-schedule/357/2">Schedule
+(for registered participants)</a></h3>
 
 ### Description
 In the humanities and related social sciences, the use of computational, statistical, and
@@ -88,9 +92,9 @@ The aim of the workshop is threefold:
   make all publications, code, and data freely available, thus encouraging research
   transparency and replication of studies.
 
-- **Dissemination**: CHR2020 proceedings will be published in the [CEUR workshop
-  proceedings](http://ceur-ws.org/). Authors of selected papers from the workshop will be
-  invited to submit to a special issue of the [Journal of Open Humanities
+- **Dissemination**: CHR2020 proceedings will be submitted for publication in the [CEUR
+  workshop proceedings](http://ceur-ws.org/). Authors of selected papers from the workshop
+  will be invited to submit to a special issue of the [Journal of Open Humanities
   Data](https://openhumanitiesdata.metajnl.com/).  
 
 
@@ -135,9 +139,9 @@ Final papers not submitted in this format will **not** be accepted.
 **Revised, camera-ready papers should be uploaded to Dropbox. Please upload a PDF, the LaTeX
 source files as well as your cover letter using the following link: http://bit.ly/CHR_submission
 Please mention your paper id in the file name.** If you have any questions concerning the
-submission, please let us know.  
+submission, please let us know.
 
-Accepted papers will be published in the [CEUR workshop proceedings](http://ceur-ws.org/).
+Accepted papers will be submitted for publication in the [CEUR workshop proceedings](http://ceur-ws.org/).
 
 
 ### Program Committee
