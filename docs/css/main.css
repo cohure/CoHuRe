@@ -54,7 +54,7 @@ a {
 
 }
 
-a:hover {
+a:hover, circle:hover {
     color: #2afadf;
 }
 
@@ -287,6 +287,6 @@ h4 {
 .circle {
     border-radius: 10%;
     background-color: #fff !important;
-    color: #D3D3D3 !important;
+    color: #4c83ff;
     font-size: 30px !important;
 }
