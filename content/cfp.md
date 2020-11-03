@@ -5,7 +5,7 @@ date: 2019-12-15T11:11:58+01:00
 ---
 <h3 class="header center"><a href="/papers">Accepted Papers</a></h3>
 <h3 class="header center"><a
-href="https://www.eventbrite.nl/e/chr2020-computational-humanities-workshop-tickets-112189028404">Register</a></h3>
+href="https://discourse.computational-humanities-research.org">Sign up and register</a></h3>
 <h3 class="header center"><a
 href="https://discourse.computational-humanities-research.org/t/chr2020-schedule/357/2">Schedule
 (for registered participants)</a></h3>
@@ -25,6 +25,9 @@ humanities. As such, we aim to fill this niche by creating a community for Compu
 Humanities Research. Ultimately, the goal of the community is to set up a
 research-oriented, open-access computational humanities journal. This workshop on
 Computational Humanities Research (CHR) will serve as a stepping stone to this journal.
+
+Read the accepted papers <a href="/papers">here</a> or at <a
+href="http://ceur-ws.org/Vol-2723/">CEUR-WS</a>. 
 
 ### Keynote Speakers
 
