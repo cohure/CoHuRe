@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Computational Humanities Research</title>
-    <link>http://www.computational-humanities-research/</link>
+    <link>http://2020.computational-humanities-research/</link>
     <description>Recent content on Computational Humanities Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 15 Dec 2019 11:12:14 +0100</lastBuildDate>
     
-	<atom:link href="http://www.computational-humanities-research/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://2020.computational-humanities-research/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Accepted Papers</title>
-      <link>http://www.computational-humanities-research/papers/</link>
+      <link>http://2020.computational-humanities-research/papers/</link>
       <pubDate>Sat, 01 Aug 2020 08:55:52 +0200</pubDate>
       
-      <guid>http://www.computational-humanities-research/papers/</guid>
+      <guid>http://2020.computational-humanities-research/papers/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Advisory Board</title>
-      <link>http://www.computational-humanities-research/advisory-board/</link>
+      <link>http://2020.computational-humanities-research/advisory-board/</link>
       <pubDate>Mon, 16 Dec 2019 21:22:17 +0100</pubDate>
       
-      <guid>http://www.computational-humanities-research/advisory-board/</guid>
+      <guid>http://2020.computational-humanities-research/advisory-board/</guid>
       <description>Tara Andrews - University of Vienna, Austria Maud Ehrmann - EPFL, Switzerland Leah Henrickson - Loughborough University, UK Mike Kestemont - University of Antwerp, Belgium Barbara McGillivray - University of Cambridge and The Alan Turing Institute, UK George Mikros - National and Kapodistrian University of Athens, Greece Kristoffer Nielbo - Aarhus University, Denmark Michael Piotrowski - University of Lausanne, Switzerland Tatjana Scheffler - University of Potsdam, Germany Ted Underwood - University of Illinois, U.</description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>http://www.computational-humanities-research/contact/</link>
+      <link>http://2020.computational-humanities-research/contact/</link>
       <pubDate>Sun, 15 Dec 2019 11:12:28 +0100</pubDate>
       
-      <guid>http://www.computational-humanities-research/contact/</guid>
+      <guid>http://2020.computational-humanities-research/contact/</guid>
       <description>For questions, ideas, or support, contact the organizers or drop us a line on the forum.</description>
     </item>
     
     <item>
       <title>Join the Community</title>
-      <link>http://www.computational-humanities-research/community/</link>
+      <link>http://2020.computational-humanities-research/community/</link>
       <pubDate>Sun, 15 Dec 2019 11:12:28 +0100</pubDate>
       
-      <guid>http://www.computational-humanities-research/community/</guid>
+      <guid>http://2020.computational-humanities-research/community/</guid>
       <description>We cordially invite you and other interested parties to join the Computational Humanities Research forum! The forum serves as an asynchronous platform to discuss all ideas and questions related to computational humanities research. These can be in-depth discussions about fundamental topics and questions of the discipline, or very practical ones, for example about how best to tackle a certain technical (coding) problem. And everything in between. Come join!</description>
     </item>
     
     <item>
       <title>CHR2020 Online</title>
-      <link>http://www.computational-humanities-research/cfp/</link>
+      <link>http://2020.computational-humanities-research/cfp/</link>
       <pubDate>Sun, 15 Dec 2019 11:11:58 +0100</pubDate>
       
-      <guid>http://www.computational-humanities-research/cfp/</guid>
+      <guid>http://2020.computational-humanities-research/cfp/</guid>
       <description>Accepted Papers Sign up and register Schedule (for registered participants) Description In the humanities and related social sciences, the use of computational, statistical, and mathematical approaches has increased in recent years. The research can be characterized by (i) relying on quantifiable rather than strictly qualitative evidence; (ii) making explicit and formalizing theory with the help of mathematical and computational models; (iii) making statistical inferences about model parameters; (iv) the use of computational and automatic procedures for processing and analyzing data; and (v) searching for computational analogies through which theories from different disciplines can be unified.</description>
     </item>
     
